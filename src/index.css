@@ -1,0 +1,24 @@
+body {
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans';
+  margin-top: 2em;
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 1.15rem;
+}
+
+blockquote > p {
+  color: #999;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3f51b5;
+}

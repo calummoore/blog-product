@@ -62,5 +62,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    const type = getNode(node.parent).sourceInstanceName
+    createNodeField({ name: 'type', node, value: type })
   }
 }
