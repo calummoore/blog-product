@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 // import styled from '@emotion/styled'
 import tw from 'tailwind.macro'
-import Nav from '../components/Nav'
+import Nav from '../components/nav'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
