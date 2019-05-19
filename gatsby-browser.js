@@ -1,4 +1,4 @@
 // custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
-import "./src/index.css"
+import 'typeface-open-sans'
+import 'typeface-lora'
+import './src/index.css'

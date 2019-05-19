@@ -1,9 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
+import React from 'react'
+import { Link } from 'gatsby'
+import { rhythm, scale } from '../utils/typography'
+import tw from 'tailwind.macro'
 
 class Layout extends React.Component {
-  render() {
+  render () {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
@@ -61,7 +62,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        <footer css={tw`mt-8`}>
           © {new Date().getFullYear()}
         </footer>
       </div>

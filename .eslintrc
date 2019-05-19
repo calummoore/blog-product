@@ -6,6 +6,9 @@
     - standard-react
     - react-app
 
+  plugins:
+    - emotion
+
   env:
     browser: true
     jest: true
@@ -15,11 +18,13 @@
     __TEST__: true
     __PROD__: true
     __COVERAGE__: false
+    __PATH_PREFIX__: true
     ENV: false
     expect: false
     test: false
     describe: false
     mixpanel: true
+    tw: true
 
   rules:
     key-spacing: off

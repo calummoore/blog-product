@@ -1,34 +1,76 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-
-import Bio from '../components/bio'
+import { graphql, Link } from 'gatsby'
+// import styled from '@emotion/styled'
+import tw from 'tailwind.macro'
+import Nav from '../components/Nav'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+
+function ProductItem ({ title, desc }) {
+  return (
+    <div css={styles.container}>
+      <div css={styles.header}>{ title }</div>
+      <div css={styles.content}>{ desc }</div>
+    </div>
+  )
+}
 
 class ProductsIndex extends React.Component {
   render () {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.products.edges
+    const products = data.products.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title='All products' />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              {title}
-            </div>
-          )
-        })}
+        <div css={tw`my-5`}>
+          <Nav />
+        </div>
+        <div css={tw`flex flex-wrap -m-3`}>
+          {products.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            const desc = node.frontmatter.description
+            return (
+              <div css={tw`w-full sm:w-1/2 p-3`} key={node.fields.slug}>
+                <Link to={node.fields.slug}>
+                  <ProductItem title={title} desc={desc} />
+                </Link>
+              </div>
+            )
+          })}
+        </div>
       </Layout>
     )
   }
 }
 
-export default ProductsIndex
+const styles = {
+  container: tw`
+    block
+    w-full
+    shadow-md 
+    rounded
+    overflow-hidden
+    border
+    border-gray-300 
+    border-solid
+  `,
+  header: tw`
+    py-16
+    bg-blue-600
+    font-sans
+    font-bold
+    text-white
+    text-center
+    text-3xl
+  `,
+  content: tw`
+    p-4
+    leading-relaxed
+    text-black
+  `,
+}
 
 export const pageQuery = graphql`
   query {
@@ -38,7 +80,7 @@ export const pageQuery = graphql`
       }
     }
     products: allMarkdownRemark(
-      filter: { fields: { type: { eq: "projects" } } }
+      filter: { fields: { type: { eq: "products" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -57,3 +99,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default ProductsIndex

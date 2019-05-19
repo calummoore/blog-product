@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
-import Bio from '../components/bio'
+import tw from 'tailwind.macro'
+// import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
+// import { rhythm } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render () {
@@ -29,12 +29,8 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
+
+        <div css={tw`mt-32 border-t border-solid border-gray-300 `} />
 
         <ul
           style={{
