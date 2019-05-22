@@ -81,7 +81,7 @@ We're a little bit behind from yesterday. Let's get to it.
 
 #### Summary
 
-I did most of the tasks I wanted to do today, but I spent much longer on the resizing image / cache feature. I think the lesson here is "Stick to what you know"! I tried out a new tool ([fly.io](http://fly.io]), and got slowed down because I couldn't get the caching to work (there examples where pretty limited so it would have been helpful to have more!). I then tried a different approach (deploying an open source code base via Google Cloud Run) and got it working pretty quickly.
+I did most of the tasks I wanted to do today, but I spent much longer on the resizing image / cache feature. I think the lesson here is "Stick to what you know"! I tried out a new tool ([fly.io](http://fly.io]), and got slowed down because I couldn't get the caching to work. I then tried a different approach (deploying an open source code base via Google Cloud Run) and got it working pretty quickly.
 
 
 ### Day 3
