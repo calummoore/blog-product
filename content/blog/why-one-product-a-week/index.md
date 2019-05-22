@@ -26,6 +26,7 @@ I’m going to be 100% open about my experience and progress as it happens in re
 Here are some of the things I will share:
 
 * A new product every week
+* Videos of me designing and building the app
 * Lessons I learn along the way
 * Failures
 * Revenue and metrics
