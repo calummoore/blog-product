@@ -91,7 +91,7 @@ I did most of the tasks I wanted to do today, but I spent much longer on the res
 We're launching tomorrow - so today is the last dev day. Lot's to do!
 
   - [x] Add a button to view all screens for an app
-  - [x] Deploy server to [Netlify](https://netlify.com/)
+  - [x] Deploy server to ~~[Netlify](https://netlify.com/)~~ [Firebase](https://firebase.google.com/)
   - [x] Improve category (/tag) - allow multiple tags to be selected
   - [x] Add a good number of examples (as this may change later scope)
   - [x] Add custom domain for webimages (so we can use CDN)
@@ -112,6 +112,7 @@ Ah, I didn't launch today. I was hoping to launch at the end of the day, but the
 This is some incredible weather we're having! Focus today is on adding signup/feedback, more screenshots and start reaching out to prospective users. Oh and also launch, possibly tonight - still trying to figure this all out!
 
   - [ ] Add a signup so people can save their favourite designs (and to capture e-mails)
+  - [ ] Add lazy loading, otherwise page takes a long time to load!
   - [ ] Add 10 more products to screenshot
   - [ ] Add a fake subscribe to changes btn (to see if people want that)
 
