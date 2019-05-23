@@ -111,8 +111,11 @@ Ah, I didn't launch today. I was hoping to launch at the end of the day, but the
 
 This is some incredible weather we're having! Focus today is on adding signup/feedback, more screenshots and start reaching out to prospective users. Oh and also launch, possibly tonight - still trying to figure this all out!
 
-  - [ ] Add a signup so people can save their favourite designs (and to capture e-mails)
+  - [ ] Add a signup so people can save their favourite designs (and we can capture e-mails)
   - [ ] Add lazy loading, otherwise page takes a long time to load!
   - [ ] Add 10 more products to screenshot
-  - [ ] Add a fake subscribe to changes btn (to see if people want that)
+  - [ ] Get some initial users
+  - [ ] Add social buttons
+  - [ ] Add feedback tool
+  - [ ] Add mobile friendly nav
 
