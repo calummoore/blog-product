@@ -111,19 +111,21 @@ Ah, I didn't launch today 🤦‍♂️. I was hoping to launch at the end of th
 
 This is some incredible weather we're having! Focus today is on adding signup/feedback, more screenshots and start reaching out to prospective users. Oh and also launch, possibly tonight - still trying to figure this all out!
 
-  - [x] Add a signup so people can save their favourite designs (and we can capture e-mails)
+  - [x] Add a signup so people can save their favourite designs
   - [x] Resize image crashing fix (because server runs out of memory)
+  - [x] Fix [Cloudflare CDN](https://www.cloudflare.com/) not caching images
   - [x] Add lazy loading, otherwise page takes a long time to load!
   - [x] Add SHA to images (and use that as the image ID)
   - [ ] Add popup to encourage signup
   - [x] Add ProductHunt banner
   - [x] Add 5 more products to screenshot
-  - [ ] Populate week categories (and check for new categories)
+  - [x] Populate week categories (and check for new categories)
   - [ ] All image requests go through cdn.webframe.xyz??
   - [ ] Add social buttons
   - [ ] Add feedback tool
   - [ ] Add mobile friendly nav
-  - [ ] Add analytics - GA / Mixpanel
+  - [ ] Add analytics - [GA](https://analytics.google.com/analytics/web/) / [Mixpanel](https://mixpanel.com/)
+
 
 #### Summary
 
@@ -138,10 +140,11 @@ Sunny weather makes me happy 😍! Today is focussed on getting in a launch READ
 
   - [ ] Add popup to encourage signup
   - [ ] All image requests go through cdn.webframe.xyz
-  - [ ] Add analytics - GA / Mixpanel
+  - [ ] Add analytics - [GA](https://analytics.google.com/analytics/web/) / [Mixpanel](https://mixpanel.com/)
+  - [ ] Add feedback tool
   - [ ] Generate ProductHunt launch materials
   - [ ] Add social buttons
-  - [ ] Add feedback tool
   - [ ] Add mobile friendly nav
-  - [ ] Populate week categories (and check for new categories)
-  - [ ] Update this blog!
+  - [ ] Add tags to screens
+  - [ ] Improve SEO by generating a page for each screen
+  - [ ] Update this blog - videos, better intro, product summary!
