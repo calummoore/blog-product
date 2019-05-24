@@ -101,7 +101,7 @@ We're launching tomorrow - so today is the last dev day. Lot's to do!
 
 ##### Summary
 
-Ah, I didn't launch today. I was hoping to launch at the end of the day, but there were still some loose ends to tie up. In particular, I want to add a signup process and more screenshots. 
+Ah, I didn't launch today 🤦‍♂️. I was hoping to launch at the end of the day, but there were still some loose ends to tie up. In particular, I want to add a signup process and more screenshots. 
 
 
 
@@ -111,11 +111,37 @@ Ah, I didn't launch today. I was hoping to launch at the end of the day, but the
 
 This is some incredible weather we're having! Focus today is on adding signup/feedback, more screenshots and start reaching out to prospective users. Oh and also launch, possibly tonight - still trying to figure this all out!
 
-  - [ ] Add a signup so people can save their favourite designs (and we can capture e-mails)
-  - [ ] Add lazy loading, otherwise page takes a long time to load!
-  - [ ] Add 10 more products to screenshot
-  - [ ] Get some initial users
+  - [x] Add a signup so people can save their favourite designs (and we can capture e-mails)
+  - [x] Resize image crashing fix (because server runs out of memory)
+  - [x] Add lazy loading, otherwise page takes a long time to load!
+  - [x] Add SHA to images (and use that as the image ID)
+  - [ ] Add popup to encourage signup
+  - [x] Add ProductHunt banner
+  - [x] Add 5 more products to screenshot
+  - [ ] Populate week categories (and check for new categories)
+  - [ ] All image requests go through cdn.webframe.xyz??
   - [ ] Add social buttons
   - [ ] Add feedback tool
   - [ ] Add mobile friendly nav
+  - [ ] Add analytics - GA / Mixpanel
 
+#### Summary
+
+A productive day, but still not not everything is finished 😭. I think this is fear of launching creeping in again! I didn't end up doing any *promotion* - I'm still unsure whether it's best to focus all attention on launch day or build up a bit of audience beforehand. I guess it's something I will need to try out.
+
+
+### Day 5
+
+☀️ 22° - Sunny intervals and a gentle breeze
+
+Sunny weather makes me happy 😍! Today is focussed on getting in a launch READY state. That means I need to be ready to click that ProductHunt button. In fact, I think I will schedule it to launch automatically. New launch date is now **Tuesday 28th May @ 9.30am BST**.
+
+  - [ ] Add popup to encourage signup
+  - [ ] All image requests go through cdn.webframe.xyz
+  - [ ] Add analytics - GA / Mixpanel
+  - [ ] Generate ProductHunt launch materials
+  - [ ] Add social buttons
+  - [ ] Add feedback tool
+  - [ ] Add mobile friendly nav
+  - [ ] Populate week categories (and check for new categories)
+  - [ ] Update this blog!
