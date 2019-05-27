@@ -18,11 +18,11 @@ export default function Signup ({ forceShow, title = <span>Hello <span role='img
 
   const onSubscribe = async (e) => {
     e.preventDefault()
-    await firebase.firestore().collection('products').doc('1productaweek').collection('subscribers').doc(formData.email).set({
+    await firebase.firestore().collection('subscribers').add({
       ...formData,
       product: '1productaweek',
       date: new Date(),
-    }).catch(() => null)
+    }).catch((e) => alert(e.message))
     if (localStorage) localStorage.setItem('1productaweek.signup', 'true')
     setSubscribed(true)
   }
