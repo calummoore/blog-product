@@ -22,7 +22,7 @@ export default function Signup ({ forceShow, title = <span>Hello <span role='img
       ...formData,
       product: '1productaweek',
       date: new Date(),
-    })
+    }).catch(() => null)
     if (localStorage) localStorage.setItem('1productaweek.signup', 'true')
     setSubscribed(true)
   }
