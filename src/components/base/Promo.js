@@ -1,21 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import firebase from 'config/firebase'
 import { css } from '@emotion/core'
-import useFirebaseAuth from 'hooks/useFirebaseAuth'
 import ClickOutside from './ClickOutside'
 
 const updateFormValue = (setFormData, formData, prop) => (e) => setFormData({ ...formData, [prop]: e.target.value })
-const db = firebase.firestore()
 
 export function Feedback ({ product }) {
   const [show, setShow] = useState(false)
   const [formData, setFormData] = useState({})
-  const user = useFirebaseAuth()
-
-  useEffect(() => {
-    if (!formData.email && user) setFormData({ ...formData, email: user.email })
-  }, [formData, user])
 
   if (!show) {
     return (
@@ -27,6 +20,7 @@ export function Feedback ({ product }) {
 
   const onSubmit = async (e) => {
     e.preventDefault()
+    const db = firebase.firestore()
     await db.collection('feedback').add({
       ...formData,
       product,

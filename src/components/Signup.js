@@ -6,7 +6,6 @@ import tw from 'tailwind.macro'
 import Profile from './Profile'
 
 const updateFormValue = (setFormData, formData, prop) => (e) => setFormData({ ...formData, [prop]: e.target.value })
-const db = firebase.firestore()
 
 export default function Signup ({ forceShow, title = <span>Hello <span role='img' aria-label='wave'>👋</span></span> }) {
   const [formData, setFormData] = useState({})
@@ -18,7 +17,7 @@ export default function Signup ({ forceShow, title = <span>Hello <span role='img
 
   const onSubscribe = async (e) => {
     e.preventDefault()
-    await db.collection('products').doc('1productaweek').collection('subscribers').doc(formData.email).set({
+    await firebase.firestore().collection('products').doc('1productaweek').collection('subscribers').doc(formData.email).set({
       ...formData,
       product: '1productaweek',
       date: new Date(),
@@ -26,7 +25,7 @@ export default function Signup ({ forceShow, title = <span>Hello <span role='img
     if (localStorage) localStorage.setItem('1productaweek.signup', 'true')
   }
 
-  if (!forceShow && localStorage.getItem('1productaweek.signup') === 'true') return null
+  if (!forceShow && localStorage && localStorage.getItem('1productaweek.signup') === 'true') return null
 
   return (
     <div css={styles.box}>
