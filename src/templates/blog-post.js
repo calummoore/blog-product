@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
-import tw from 'tailwind.macro'
+import { graphql } from 'gatsby'
 // import Bio from '../components/bio'
+import Footer from '../components/footer'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 // import { rhythm } from '../utils/typography'
@@ -18,44 +18,21 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            color: '#aaa',
-            display: `block`,
-            marginBottom: '2em',
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className='content'>
+          <h1>{post.frontmatter.title}</h1>
+          <p
+            style={{
+              color: '#aaa',
+              display: `block`,
+              marginBottom: '2em',
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        <div css={tw`mt-32 border-t border-solid border-gray-300 `} />
-
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel='prev'>
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel='next'>
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+          <Footer previous={previous} next={next} />
+        </div>
       </Layout>
     )
   }

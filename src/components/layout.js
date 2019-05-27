@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { rhythm, scale } from '../utils/typography'
 import tw from 'tailwind.macro'
+// import Promo from './base/Promo'
+import ProductHunt from './base/ProductHunt'
 
 class Layout extends React.Component {
   render () {
@@ -36,6 +38,7 @@ class Layout extends React.Component {
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
+            fontSize: '1.3em',
           }}
         >
           <Link
@@ -52,20 +55,23 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(30),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer css={tw`mt-8`}>
-          © {new Date().getFullYear()}
-        </footer>
-      </div>
+      <>
+        <ProductHunt name='Webframe' id='webframe' />
+        <div
+          style={{
+            marginLeft: `auto`,
+            marginRight: `auto`,
+            maxWidth: rhythm(30),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          <header>{header}</header>
+          <main>{children}</main>
+          <footer css={tw`mt-8`}>
+            © {new Date().getFullYear()}
+          </footer>
+        </div>
+      </>
     )
   }
 }

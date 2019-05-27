@@ -1,10 +1,16 @@
 ---
 title:  Webframe
 date: "2019-05-20T00:00:00.000Z"
-description: A directory of screenshots of beautiful web apps, to help get inspiration for your next project.
+description: A showcase of beautiful and well designed web app screens for design inspiration.
+week: 1
+icon: ./webframe-icon.png
+website: webframe.xyz
+github: https://github.com/calummoore/webframe
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5
 ---
 
-A showcase of beautiful and well designed web app screens for design inspiration.
+![Webframe Screenshot](./webframe-screenshot.png "Webframe Screenshot")
+
 
 ## Plan
 #### Problem
@@ -45,22 +51,11 @@ Day 4 - launch the product on PH and in forums<br>
 Day 5 - schedule interviews with people using the site<br>
 
 
-## Log
+## Daily Log
 ### Day 1
 ☀️ 20° - Sunny intervals and a gentle breeze
 
 Feeling good! Ok, let's get to it!
-
-#### 10.00 - 12.20 - Plan
-
-Create the plan that you see above.
-
-#### 12.20 - 13.00 - Lunch
-
-#### 13.00 - 14.00 - Design
-
-#### 14.00 - 19.00 - Dev
-
 
 #### Summary
 
@@ -99,7 +94,7 @@ We're launching tomorrow - so today is the last dev day. Lot's to do!
   - [ ] Add a fake subscribe to changes btn (to see if people want that)
   - [ ] Add a signup so people can save their favourite designs
 
-##### Summary
+#### Summary
 
 Ah, I didn't launch today 🤦‍♂️. I was hoping to launch at the end of the day, but there were still some loose ends to tie up. In particular, I want to add a signup process and more screenshots. 
 
@@ -138,13 +133,16 @@ A productive day, but still not not everything is finished 😭. I think this is
 
 Sunny weather makes me happy 😍! Today is focussed on getting in a launch READY state. That means I need to be ready to click that ProductHunt button. In fact, I think I will schedule it to launch automatically. New launch date is now **Tuesday 28th May @ 9.30am BST**.
 
-  - [ ] Add popup to encourage signup
-  - [ ] All image requests go through cdn.webframe.xyz
-  - [ ] Add analytics - [GA](https://analytics.google.com/analytics/web/) / [Mixpanel](https://mixpanel.com/)
-  - [ ] Add feedback tool
+  - [x] Add popup to encourage signup
+  - [x] Add analytics - [GA](https://analytics.google.com/analytics/web/)
+  - [x] Add feedback tool
   - [ ] Generate ProductHunt launch materials
   - [ ] Add social buttons
+  - [ ] Add submit product btn??
+  - [x] Make top rated products go first
+  - [x] Show loading while getting initial results
   - [ ] Add mobile friendly nav
-  - [ ] Add tags to screens
+  - [ ] Add product/tags overlay to screens in list view
   - [ ] Improve SEO by generating a page for each screen
-  - [ ] Update this blog - videos, better intro, product summary!
+
+  
