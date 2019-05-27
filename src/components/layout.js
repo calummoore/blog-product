@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { rhythm, scale } from '../utils/typography'
 import tw from 'tailwind.macro'
-// import Promo from './base/Promo'
+import Promo from './base/Promo'
 import ProductHunt from './base/ProductHunt'
 
 class Layout extends React.Component {
@@ -71,6 +71,7 @@ class Layout extends React.Component {
             © {new Date().getFullYear()}
           </footer>
         </div>
+        <Promo product='1productaweek' name='1ProductAWeek' href='#' />
       </>
     )
   }

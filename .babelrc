@@ -1,7 +1,13 @@
 {
   "plugins": [
     "@babel/plugin-proposal-optional-chaining",
-    ["macros"]
+    ["macros"],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "test": "./test",
+      }
+    }]
   ],
   "presets": [
     [

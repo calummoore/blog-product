@@ -23,8 +23,10 @@ class ProductPostTemplate extends React.Component {
       const href = title.toLowerCase().split(' ').join('-')
       return (
         <>
-          <li><a href={`#${href}`}>{title}</a></li>
-          {i < tocList.length - 1 && <li css={css`color: #ccc; margin-left: 0.5em; margin-right: 0.5em;`}>/</li>}
+          <li key={title}><a href={`#${href}`}>{title}</a></li>
+          {i < tocList.length - 1 && (
+            <li key={`${title}-dash`} css={css`color: #ccc; margin-left: 0.5em; margin-right: 0.5em;`}>/</li>
+          )}
         </>
       )
     })

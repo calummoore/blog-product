@@ -63,11 +63,11 @@ export function Feedback ({ product }) {
   )
 }
 
-export default function Promo ({ name, href }) {
+export default function Promo ({ name, href, product, target = '_blank' }) {
   return (
     <div css={styles.container}>
-      <Feedback />
-      <a target='_blank' href={href}>
+      <Feedback product={product} />
+      <a target={target} href={href}>
         {name}
       </a>
     </div>
@@ -75,6 +75,7 @@ export default function Promo ({ name, href }) {
 }
 
 const common = `
+  font-family: 'Open Sans', sans-serif;
   position: fixed;
   bottom: 0;
   right: 0;
