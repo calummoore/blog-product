@@ -1,9 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import tw from 'tailwind.macro'
 // import Bio from '../components/bio'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Signup from '../components/Signup'
 // import { rhythm } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
@@ -32,6 +34,9 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
           <Footer previous={previous} next={next} />
+        </div>
+        <div css={tw`my-10`}>
+          <Signup forceShow />
         </div>
       </Layout>
     )

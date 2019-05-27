@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { rhythm, scale } from '../utils/typography'
+import { css } from '@emotion/core'
 import tw from 'tailwind.macro'
+import Nav from '../components/nav'
 import Promo from './base/Promo'
 import ProductHunt from './base/ProductHunt'
+import Signup from './Signup'
 
 class Layout extends React.Component {
   render () {
@@ -13,45 +16,54 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
+        <header>
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <Nav />
+        </header>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-            fontSize: '1.3em',
-          }}
-        >
-          <Link
+        <header css={tw`clearfix`}>
+          <h3
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              fontFamily: `Montserrat, sans-serif`,
+              marginTop: 0,
+              fontSize: '1.3em',
+              float: 'left',
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h3>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h3>
+          <div css={tw`float-right`}>
+            <Nav />
+          </div>
+        </header>
       )
     }
     return (
@@ -65,13 +77,16 @@ class Layout extends React.Component {
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
-          <header>{header}</header>
+          {header}
+          <div css={css`margin-top: 3em; margin-bottom: 2em;`}>
+            <Signup />
+          </div>
           <main>{children}</main>
           <footer css={tw`mt-8`}>
             © {new Date().getFullYear()}
           </footer>
         </div>
-        <Promo product='1productaweek' name='1ProductAWeek' href='#' />
+        <Promo product='1productaweek' name='1ProductAWeek' href='/why-one-product-a-week' target='_self' />
       </>
     )
   }

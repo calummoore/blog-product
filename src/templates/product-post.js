@@ -5,6 +5,7 @@ import tw from 'tailwind.macro'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Signup from '../components/Signup'
 import githubLogo from '../img/github.png'
 import openImg from '../img/open.png'
 
@@ -75,6 +76,9 @@ class ProductPostTemplate extends React.Component {
           <div css={css`margin-top: 2em;`} dangerouslySetInnerHTML={{ __html: post.html }} />
 
           <Footer previous={previous} next={next} />
+        </div>
+        <div css={tw`my-10`}>
+          <Signup forceShow />
         </div>
       </Layout>
     )

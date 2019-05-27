@@ -70,7 +70,7 @@ We're a little bit behind from yesterday. Let's get to it.
 
   - [x] Finish the navigation / homepage for the app
   - [x] Resize images so they load faster (currently each image is ~3MB)
-  - [x] Add a download button to navigatin view
+  - [x] Add a download button to navigation view
   - [ ] Add a button to view all screens for an app
   - [ ] Adding a good number of examples
 

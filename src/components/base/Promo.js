@@ -30,6 +30,7 @@ export function Feedback ({ product }) {
     await db.collection('feedback').add({
       ...formData,
       product,
+      date: new Date(),
     })
     setFormData({})
     setShow(false)
