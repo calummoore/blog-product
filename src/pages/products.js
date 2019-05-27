@@ -24,9 +24,6 @@ class ProductsIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title='All products' />
-        <div css={tw`my-5`}>
-          <Nav />
-        </div>
         <div css={tw`flex flex-wrap -m-3`}>
           {products.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug

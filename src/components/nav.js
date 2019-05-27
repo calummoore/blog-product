@@ -11,6 +11,7 @@ export default function Nav () {
   return (
     <nav>
       <LinkStyled to='/'>Home</LinkStyled>
+      <LinkStyled to='/why-one-product-a-week'>About</LinkStyled>
       <LinkStyled to='/products'>Products</LinkStyled>
     </nav>
   )
