@@ -9,6 +9,7 @@ const updateFormValue = (setFormData, formData, prop) => (e) => setFormData({ ..
 
 export default function Signup ({ forceShow, title = <span>Hello <span role='img' aria-label='wave'>👋</span></span> }) {
   const [formData, setFormData] = useState({})
+  const [subscribed, setSubscribed] = useState(false)
 
   let localStorage = null
   if (typeof window !== 'undefined') {
@@ -23,7 +24,10 @@ export default function Signup ({ forceShow, title = <span>Hello <span role='img
       date: new Date(),
     })
     if (localStorage) localStorage.setItem('1productaweek.signup', 'true')
+    setSubscribed(true)
   }
+
+  if (subscribed) return <h6 css={tw`mt-2 font-bold text-lg`}>Thank you for subscribing!</h6>
 
   if (!forceShow && localStorage && localStorage.getItem('1productaweek.signup') === 'true') return null
 
