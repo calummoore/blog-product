@@ -10,10 +10,12 @@ So in an attempt to fix this, I’ve decided to publicly commit to validating on
 I know you've probably seen other attempts at this like - [12 startups in 12 months](https://levels.io/12-startups-12-months/) (which was actually pretty successful). And, this is not an attempt to get more extreme for the sake of it. Here are my reasons for choosing 1 week as my baseline.
 
 ### Benefits
+* Many ideas have a critical unforeseen issue, so getting something out fast helps validate it quickly and prevents wasting time on stuff that will never work
 * It’s much easier to accurately plan progress/scope over a week
 * You don’t get too attached to the product and accidentally spend 2... 3.. 6 months building it
 * Launching products is hard, but the more you do it the easier it gets
-* I get to learn from my mistakes and immediately put it into practise
+* I get to learn from my mistakes and immediately put it into practice
+
 
 ### Downsides
 * One week might not be enough time to get a clear picture of market sentiment for the problem / solution
