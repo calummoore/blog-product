@@ -28,12 +28,14 @@ function SEO ({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-  const imageMeta = image ? [{
+  const metaImage = image || site.siteMetadata.image
+
+  const imageMeta = metaImage ? [{
     property: `og:image`,
-    content: image,
+    content: metaImage,
   }, {
     name: `twitter:image`,
-    content: image,
+    content: metaImage,
   }] : []
 
   return (
