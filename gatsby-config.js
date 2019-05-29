@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `1 product a week 😬`,
     author: `Calum Moore`,
-    description: `Join me as I take on the challenge of building and launching 1 product every week!`,
+    description: `Join me as I take on the challenge of building and launching 1 product every week! This week, I'm building Webframe!`,
     siteUrl: `https://1productaweek.com`,
     image: 'https://1productaweek.com/social.png',
     social: {
