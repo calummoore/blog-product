@@ -131,12 +131,12 @@ A productive day, but still not not everything is finished 😭. I think this is
 
 ☀️ 22° - Sunny intervals and a gentle breeze
 
-Sunny weather makes me happy 😍! Today is focussed on getting in a launch READY state. That means I need to be ready to click that ProductHunt button. In fact, I think I will schedule it to launch automatically. New launch date is now **Tuesday 28th May @ 9.30am BST**.
+Sunny weather makes me happy 😍! Today is focussed on getting in a launch READY state. That means I need to be ready to click that ProductHunt button. In fact, I think I will schedule it to launch automatically. New launch date is now ~~**Tuesday 28th May @ 9.30am BST**~~ **Wednesday 28th May @ 8.00am BST**.
 
   - [x] Add popup to encourage signup
   - [x] Add analytics - [GA](https://analytics.google.com/analytics/web/)
   - [x] Add feedback tool
-  - [ ] Generate ProductHunt launch materials
+  - [x] Generate ProductHunt launch materials
   - [ ] Add social buttons
   - [ ] Add submit product btn??
   - [x] Make top rated products go first
@@ -145,4 +145,14 @@ Sunny weather makes me happy 😍! Today is focussed on getting in a launch READ
   - [ ] Add product/tags overlay to screens in list view
   - [ ] Improve SEO by generating a page for each screen
 
+
+### Launch
+
+☁️ 18° - Light cloud and moderate breeze
+
+Not so sunny today, hopefully not an oman for the launch!
+
+  - [] Post articles on Medium
+  - [] Send e-mail to Saasified mailing list (a previous project)
+  - [] Send @tweets to accounts that were used to build webframe.xyz (@tailwind, @fly.io, @reactstatic, @gatsby, @firebase, @mailgun)
   

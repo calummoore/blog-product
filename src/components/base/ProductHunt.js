@@ -9,7 +9,7 @@ function ProductHunt ({ name, id }) {
       target='_blank' rel='noopener noreferrer'>
       <div>
         <div className='title'>{name} is trending on ProductHunt!</div>
-        <div className='desc xs-hide sm-hide'>Please check us over there and don't forget to…
+        <div className='desc xs-hide sm-hide'>Please check us out over there and don't forget to…
           <span
             css={css`font-size: 1.4em; line-height: 7px; position: relative; top: 4px; margin-left: 0.3em;`}
             role='img'

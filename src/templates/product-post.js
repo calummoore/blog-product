@@ -36,7 +36,7 @@ class ProductPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={title}
-          description={post.frontmatter.description || post.excerpt}
+          description={`How I built and launched ${title} in 1 week - ${post.frontmatter.description || post.excerpt}`}
         />
         <div className='content'>
           <h1>{iconEl}<span style={{ position: 'relative', top: 3 }}>{post.frontmatter.title}</span></h1>
