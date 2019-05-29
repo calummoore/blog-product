@@ -152,12 +152,13 @@ Sunny weather makes me happy 😍! Today is focussed on getting in a launch READ
 
 Not so sunny today, hopefully not an reflective for the launch!
 
-  - [] Share with friends!
-  - [] Post articles on Medium
-  - [] Send e-mail to Saasified mailing list (a previous project)
-  - [] Send @tweets to accounts that were used to build webframe.xyz (@tailwind, @fly.io, @reactstatic, @gatsby, @firebase, @mailgun) - retweet posts on @saasified and @calummoore
-  - [] Publish dev blog on React Hooks
-  - [] Message design communities - Slack, Discord, DesignerNews
-  - [] Respond to some more Quora questions
-  - [] Add video of building the product somewhere!?
+  - [ ] Test webframe.xyz website
+  - [ ] Share with friends!
+  - [ ] Post articles on Medium
+  - [ ] Send e-mail to Saasified mailing list (a previous project)
+  - [ ] Send @tweets to accounts that were used to build webframe.xyz (@tailwind, @fly.io, @reactstatic, @gatsby, @firebase, @mailgun) - retweet posts on @saasified and @calummoore
+  - [ ] Publish dev blog on React Hooks
+  - [ ] Message design communities - Slack, Discord, DesignerNews
+  - [ ] Respond to some more Quora questions
+  - [ ] Add video of building the product somewhere!?
   
