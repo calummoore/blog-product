@@ -3,16 +3,15 @@ import tw from 'tailwind.macro'
 
 export default styled.button`
   outline: none;
-  cursor: pointer;
   ${tw`
-    font-sans
+    cursor-pointer
     inline-block
-    bg-blue-500 
-    hover:bg-blue-700 
+    bg-gray-700
+    hover:bg-gray-800
     text-xs
     text-white 
     font-bold 
-    py-3
+    py-2
     px-4 
     rounded
     border

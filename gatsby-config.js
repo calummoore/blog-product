@@ -1,3 +1,5 @@
+const credentials = require('./credentials')
+
 module.exports = {
   siteMetadata: {
     title: `1 product a week 😬`,
@@ -10,6 +12,14 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-source-youtube-v2`,
+      options: {
+        channelId: ['UCT2lsptYf4WvBsCNBqqHAgQ'], // 'UCT2lsptYf4WvBsCNBqqHAgQ',
+        apiKey: credentials.youtube,
+        maxVideos: 50, // Defaults to 50
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

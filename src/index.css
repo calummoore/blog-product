@@ -5,20 +5,24 @@
 @tailwind utilities; */
 
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
 }
 
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
+
 
 h1, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  margin-top: 2.5em;
-  margin-bottom: 0.5em;
+}
+
+.content {
+  font-family: 'Lora', serif;
 }
 
 .content h1 + p, 
@@ -34,14 +38,15 @@ h1, h2, h3, h4, h5 {
   margin-top: 0.5em;
 }
 
-.content h1 { font-size: 2em }
-.content h2 { font-size: 1.5em;  }
-.content h3 { font-size: 1.17em; }
-.content h4 { font-size: 1em; }
-.content h5 { font-size: .83em; }
-.content h6  { font-size: .67em; }
+.content h1 { font-size: 2em; margin-top: 2.5em; margin-bottom: 0.5em; }
+.content h2 { font-size: 1.5em; margin-top: 2.5em; margin-bottom: 0.5em; }
+.content h3 { font-size: 1.17em; margin-top: 2.5em; margin-bottom: 0.5em; }
+.content h4 { font-size: 1em; margin-top: 2.5em; margin-bottom: 0.5em; }
+.content h5 { font-size: .83em; margin-top: 2.5em; margin-bottom: 0.5em; }
+.content h6  { font-size: .67em; margin-top: 2.5em; margin-bottom: 0.5em; }
 
 .content p, .content li {
+  font-family: 'Lora', serif;
   line-height: 1.6;
   font-size: 1.15rem;
 }
@@ -73,4 +78,44 @@ p {
 
 .task-list-item {
   list-style: none;
+}
+
+/* Basscss Hide */
+
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (max-width: 40em) {
+  .xs-hide { display: none !important }
+}
+
+@media (min-width: 40em) and (max-width: 52em) {
+  .sm-hide { display: none !important }
+}
+
+@media (min-width: 52em) and (max-width: 64em) {
+  .md-hide { display: none !important }
+}
+
+@media (min-width: 64em) {
+  .lg-hide { display: none !important }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }

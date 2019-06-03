@@ -38,7 +38,10 @@ class ProductPostTemplate extends React.Component {
           title={title}
           description={`How I built and launched ${title} in 1 week - ${post.frontmatter.description || post.excerpt}`}
         />
-        <div className='content'>
+        <div css={css`margin-top: 3em; margin-bottom: 2em; ${tw`max-w-2xl mx-auto`}`}>
+          <Signup />
+        </div>
+        <div css={tw`max-w-2xl mx-auto`} className='content'>
           <h1>{iconEl}<span style={{ position: 'relative', top: 3 }}>{post.frontmatter.title}</span></h1>
           <p
             style={{
@@ -77,7 +80,7 @@ class ProductPostTemplate extends React.Component {
 
           <Footer previous={previous} next={next} />
         </div>
-        <div css={tw`my-10`}>
+        <div css={tw`my-10 max-w-2xl mx-auto`}>
           <Signup forceShow />
         </div>
       </Layout>

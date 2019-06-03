@@ -29,7 +29,7 @@ class ProductsIndex extends React.Component {
             const title = node.frontmatter.title || node.fields.slug
             const desc = node.frontmatter.description
             return (
-              <div css={tw`w-full sm:w-1/2 p-3`} key={node.fields.slug}>
+              <div css={tw`w-full sm:w-1/3 p-3`} key={node.fields.slug}>
                 <Link to={node.fields.slug}>
                   <ProductItem title={title} desc={desc} />
                 </Link>
