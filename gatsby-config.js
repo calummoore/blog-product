@@ -1,4 +1,4 @@
-const credentials = require('./credentials')
+require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
@@ -16,7 +16,7 @@ module.exports = {
       resolve: `gatsby-source-youtube-v2`,
       options: {
         channelId: ['UCT2lsptYf4WvBsCNBqqHAgQ'], // 'UCT2lsptYf4WvBsCNBqqHAgQ',
-        apiKey: credentials.youtube,
+        apiKey: process.env.YOUTUBE_KEY,
         maxVideos: 50, // Defaults to 50
       },
     },
