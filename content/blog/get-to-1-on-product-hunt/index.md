@@ -183,7 +183,7 @@ Don’t worry too much if it doesn’t go to plan — especially if you’ve
 
 ### Results
 
-What can you expect if you launch on Product Hunt? The numbers speak for themselves - 11k unique visits to your site!
+What can you expect if you launch on Product Hunt and hit #1? The numbers speak for themselves - 11k unique visits to your site!
 
 ![User Stats](user-stats.png "User Stats")
 
