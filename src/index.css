@@ -45,10 +45,27 @@ h1, h2, h3, h4, h5 {
 .content h5 { font-size: .83em; margin-top: 2.5em; margin-bottom: 0.5em; }
 .content h6  { font-size: .67em; margin-top: 2.5em; margin-bottom: 0.5em; }
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,700,700i&display=swap');
+
 .content p, .content li {
-  font-family: 'Lora', serif;
-  line-height: 1.6;
-  font-size: 1.15rem;
+  font-family: 'Merriweather', serif;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.content em {
+  font-style: italic;
+}
+
+.content strong {
+  font-weight: 700;
+}
+
+.content .gatsby-resp-image-wrapper {
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .content blockquote > p {
@@ -60,11 +77,36 @@ h1, h2, h3, h4, h5 {
 .content ul {
   list-style: disc;
   margin-left: 2em;
+  margin-top: -0.5em;
+}
+
+.content ol {
+  list-style: decimal;
+  margin-left: 2em;
+  margin-top: -0.5em;
 }
 
 .content p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.content pre {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+  color: #333;
+  line-height: 1.5;
+  border: 1px solid #eee;
+  background: #fafafa;
+  border-radius: 3px;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  overflow-x: auto;
+}
+
+.content pre > code {
+  white-space: pre-wrap;
 }
 
 a {
