@@ -1,12 +1,12 @@
 ---
-title: 'Get to #1 on Product Hunt, with no existing following'
+title: 'Get #1 on Product Hunt, with no existing following'
 ---
 
 ![Headline](promo.png "How to launch and get #1 on Product Hunt")
 
 This is the story of how I launched [Webframe](https://webframe.xyz/) and got it to [#1 on Product Hunt](https://www.producthunt.com/posts/webframe) for the day and week (with 1200+ upvotes), with absolutely no existing following — and how you can too 🎉.
 
-There’s a dangerous and unhelpful mantra going around that you need a massive following to do well on ProductHunt. You don’t. If nothing else, I’m proof of that.
+There’s a dangerous and unhelpful idea going around that you need a massive following to do well on ProductHunt. You don’t. If nothing else, I’m proof of that.
 
 At the time I launched  [Webframe on Product Hunt](https://www.producthunt.com/posts/webframe) I had:
 
@@ -16,19 +16,22 @@ At the time I launched  [Webframe on Product Hunt](https://www.producthunt.com/p
 * Never posted anything on Reddit
 * 0 existing users on the product
 
-A lot of platforms require you to have a *following*, *kudos* or whatever else they call it in order to get ahead — but not Product Hunt. It’s one of the few plaforms willing to surface content on the merit of the actual content — in fact it seems their algorithm actively encourages it.
+A lot of platforms require you to have a *following*, *kudos* or whatever else they call it in order to get ahead — but not Product Hunt. It’s one of the few platforms willing to surface content on the merit of the actual content — in fact it seems their algorithm actively encourages it.
 
 I’m not saying that having a following is bad — far from it — it definitely helps to have a following or existing audience! But it’s not entirely necessary and there are still ways to succeed if you don’t.
 
-Disclaimer: this guide does not guarantee your product will hit the top of Product Hunt, but it gives you the tools you need to give your product launch its fair chance. I’d also recommend checking out the more  [generic Product Hunt launch guide](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399) .
+Disclaimer: this guide does not guarantee your product will hit the top of Product Hunt, but it gives you the tools you need to give your product launch its fair chance. I’d also recommend checking out the more generic [Product Hunt launch guide](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399) .
 
-### Launch something simple
+
+### The Product
+
 Because you don’t have a following or a set of existing users, you won’t be referring much traffic directly to your own Product Hunt product page, and so almost all of your upvotes will come from existing Product Hunt users hitting the homepage.
+
 And those existing users will only click into your product if the 160 character tagline is compelling. That’s pretty much the only chance you have to convince people to dig further and upvote.
 
 ![Webframe on PH](webframe-on-ph.png "Webframe on PH")
 
-So it’s absolutely vital that you launch something with a simple value proposition. Something where it is immediately obvious — what your product does and why it’s valuable.
+So it’s absolutely vital that you launch something with a simple value proposition and a fairly broad appeal. Something where it is immediately obvious — what your product does and why it’s valuable to the user.
 
 Here’s a good example.
 
@@ -38,13 +41,15 @@ From the above, I can easily see what this product does and why it might be usef
 
 Here’s a bad example:
 
-👎🏽 “The best project management tool for remote workers”
+👎🏽 “The best project management tool for remote workers in the US”
 
 A project management tool might be valuable to me, but a lot of that value will depend on how you’ve built the product — which isn’t easy or quick for me to determine. I’m also already using a project management tool so you’re going to have to convince me that, not only is your product better, but so much better that it’s worth the pain of switching (so ~10x better). That’s going to be hard to get across in 160 characters. And so, even if the product is super valuable, I’m never going to try it to find out.
 
-The other problem with this example is the size of your product’s target market. If you’re launching a high niche product, you’re already massively limiting the number of people that could find it interesting and valuable — which means fewer upvotes → which means you’re lower down the daily list → which means, even if your target customer visits Product Hunt and *would* have been sold by your tagline, they’re not going to see it because you’re way too far down the list.
+The other problem with this example is the size of your product’s target market. If you’re launching a high niche product, you’re already massively limiting the number of people that could find it interesting and valuable — which means fewer upvotes → which means you’re lower down the daily list → which means, even if your target customer visits Product Hunt and *would* have been sold by your tagline, they’re not going to see it because you’re way too far down the list. So for a Product Hunt launch *specifically*, niching is not very helpful.
 
-So, if possible, your product launch should have a broader appeal. I know this goes counter to the prevailing wisdom of “niching down” (i.e. targeting a very small target user group), but for a Product Hunt launch *specifically*, niching is not very helpful.
+Finally, if you only support the US (or any other specific country), then you're unlikely to get many upvotes before the US wakes up (as your product won't be useful to anyone else). Early upvotes are so important because they "keep you in the game" - if at any point you drop to the bottom of the daily list, no one will find you no matter how good your product is (and there's no way to fix that without an audience)! For the [Webframe](https://webframe.xyz/) launch, although the US was the largest percentage of users, 7/10 top countries come from Asia/Europe.
+
+![Country Stats](country-stats.png "Country Stats")
 
 So what’s the answer if your product’s value is not immediately obvious OR the target market is small?
 
@@ -61,18 +66,23 @@ This will help you to:
   3. Improve your chances of succeeding in a future launch of your main product (as you’ll now have an audience of relevant people who want to thank you for the value you’ve given them — and they already know about Product Hunt)
   4. Worry less about the launch, as you’ve only spent a week on the product. You can always have another go next week — this isn’t your main product so all is NOT lost!
 
-Here are some quick tips on picking a mini-product:
+This is exactly the approach we're taking with [1productaweek.com](https://1productaweek.com/).
 
-* Don’t spend more than a week on it
+
+#### Tips for mini-products
+
+Here are some quick tips for mini-products:
+
+* Don’t spend more than a week on it - see how we do that at [1productaweek.com](https://1productaweek.com/) 
+* Don't make it country specific
+* Keep the appeal reasonably broad (don't go too niche)
 * Make it new and interesting
 * Make it fun (if possible)
 * Make it do one thing really well
-* Make it free
-* Make it universal — nothing that is country specific
-* Target a fairly wide group (if possible) — e.g. project managers, developers, designers, etc
+* Make it free (or at least freemium)
 * Check out ProductHunt’s previous top launches to get ideas on what seems to work — e.g. directories, simple tools, and guides seem to work well!
 
-Take a look at  [1productaweek.com](https://1productaweek.com/)  to find out how I build products in one week.
+
 
 ### Before your launch
 
@@ -170,11 +180,19 @@ Plus, having a higher number of comments also encourages more people to check ou
 #### Don’t worry
 Don’t worry too much if it doesn’t go to plan — especially if you’ve decided to launch a mini-product first! You’ve probably learned loads and can have another go!
 
-### TL;DR
 
+### Results
+
+What can you expect if you launch on Product Hunt? The numbers speak for themselves - 11k unique visits to your site!
+
+![User Stats](user-stats.png "User Stats")
+
+
+### TL;DR
 * The top five products get most of the traffic from Product Hunt, so getting to the top is very important
 * You may need to launch a different but related mini-product first (instead of your main product)— particularly if the value proposition is hard to convey OR the target market is too small
 * Join communities relevant to your product’s target market to get feedback and promote your launch
 * Keep things fun and personal — everyone loves personality or something that’s funny
 * Launch at 00:00 PST time and make sure you get ~10 upvotes in the first 20 mins
 * Check out the official ProductHunt launch guide —  [https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399](https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399) 
+
