@@ -43,7 +43,7 @@ Here’s a bad example:
 
 👎🏽 “The best project management tool for remote workers in the US”
 
-A project management tool might be valuable to me, but a lot of that value will depend on how you’ve built the product — which isn’t easy or quick for me to determine. I’m also already using a project management tool so you’re going to have to convince me that, not only is your product better, but so much better that it’s worth the pain of switching (so ~10x better). That’s going to be hard to get across in 160 characters. And so, even if the product is super valuable, I’m never going to try it to find out.
+A project management tool might be valuable to me, but a lot of that value will depend on how you’ve built the product — which isn’t easy or quick for me to determine. I’m also already using a project management tool so you’re going to have to convince me that not only is your product better, but so much better that it’s worth the pain of switching (so ~10x better). That’s going to be hard to get across in 160 characters. And so, even if the product is super valuable, I’m never going to try it to find out.
 
 The other problem with this example is the size of your product’s target market. If you’re launching a high niche product, you’re already massively limiting the number of people that could find it interesting and valuable — which means fewer upvotes → which means you’re lower down the daily list → which means, even if your target customer visits Product Hunt and *would* have been sold by your tagline, they’re not going to see it because you’re way too far down the list. So for a Product Hunt launch *specifically*, niching is not very helpful.
 
