@@ -122,4 +122,22 @@ Argh! It's day 2 and I'm already behind 😅. I've been a bit distracted by tryi
 
 ### Day 3
 
-Next update - Friday 07 June - 10am BST.
+⛅️ 17° - Light rain showers and a moderate breeze
+
+I woke up at 10.30am this morning (because I didn't get to bed until 3am last night - I was trying to finish off my blog article). I then spent some time booking in my something for my girlfriend's birthday. So it's now 12.00pm and I'm just getting started 😅.
+
+Today's focus is on creating the first integrated flow for an app - Stripe. If I can get this mega-list on activities done, then we should be roughly back on track!
+
+  - [ ] Create routes for settings, list view and report view
+  - [ ] Add profile to settings page
+  - [ ] Add authentication so users have to login to access settings
+  - [ ] Add source view to settings page
+  - [ ] Create flow source authentication (OAuth) flow - Stripe
+  - [ ] Initiate regular interval check (depending on the users settings) 
+  - [ ] Request data source on check (and add the data to elasticsearch) - Stripe
+  - [ ] Create the modal view (that enables creating a card)
+  - [ ] Create a card module for display a line graph
+
+
+Next update - Friday 07 June, 21.00 BST
+
