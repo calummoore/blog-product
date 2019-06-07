@@ -143,7 +143,7 @@ Today's focus is on creating the first integrated flow for an app - Stripe. If I
   - [ ] Create the modal view (that enables creating a card)
   - [ ] Create a card module for display a line graph
 
-Not a bad day, especially considering I started at 12.00pm. I got the main bulk of the front-end done, but still need to do the integrrations. I will be back on Monday!
+Not a bad day, especially considering I started at 12.00pm. I got the main bulk of the front-end done, but still need to do the integrations. I will be back on Monday!
 
 Next update - Monday 10 June, 9.00am BST
 
