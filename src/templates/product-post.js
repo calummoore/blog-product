@@ -8,16 +8,14 @@ import SEO from '../components/seo'
 import Signup from '../components/Signup'
 import githubLogo from '../img/github.png'
 import openImg from '../img/open.png'
+import placeholder from '../img/placeholder-icon.png'
 
 class ProductPostTemplate extends React.Component {
   render () {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    const { title, icon, week, website, github, toc } = post.frontmatter
-
-    const iconEl = icon && icon.publicURL &&
-      <img css={css`vertical-align: middle; margin-right: 0.3em;`} alt={title} src={icon.publicURL} width={60} />
+    const { title, icon, week, website, github, toc, image } = post.frontmatter
 
     const tocList = toc && toc.split(',')
     const tocEl = toc && tocList.map((title, i) => {
@@ -37,12 +35,16 @@ class ProductPostTemplate extends React.Component {
         <SEO
           title={title}
           description={`How I built and launched ${title} in 1 week - ${post.frontmatter.description || post.excerpt}`}
+          image={image && image.publicURL}
         />
         <div css={css`margin-top: 3em; margin-bottom: 2em; ${tw`max-w-2xl mx-auto`}`}>
           <Signup />
         </div>
         <div css={tw`max-w-2xl mx-auto`} className='content'>
-          <h1>{iconEl}<span style={{ position: 'relative', top: 3 }}>{post.frontmatter.title}</span></h1>
+          <h1>
+            <img css={css`vertical-align: middle; margin-right: 0.3em;`} alt={title} src={(icon && icon.publicURL) || placeholder} width={60} />
+            <span style={{ position: 'relative', top: 3 }}>{post.frontmatter.title}</span>
+          </h1>
           <p
             style={{
               color: '#aaa',
@@ -120,6 +122,10 @@ const styles = {
       ${tw`font-sans`}
       font-size: 1rem;
       display: inline-block;
+      font-weight: 600 !important;
+      a {
+        font-weight: 600 !important;
+      }
     }
   `,
 }
@@ -147,6 +153,9 @@ export const pageQuery = graphql`
         github
         website
         icon {
+          publicURL
+        }
+        image {
           publicURL
         }
       }

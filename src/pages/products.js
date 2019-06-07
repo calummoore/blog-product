@@ -2,14 +2,20 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 // import styled from '@emotion/styled'
 import tw from 'tailwind.macro'
-import Nav from '../components/nav'
+// import Nav from '../components/nav'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import placeholder from '../img/placeholder-icon.png'
 
-function ProductItem ({ title, desc }) {
+function ProductItem ({ title, desc, icon }) {
   return (
     <div css={styles.container}>
-      <div css={styles.header}>{ title }</div>
+      <div css={styles.header}>
+        <div css={tw`mb-2`}>
+          <img src={(icon && icon.publicURL) || placeholder} alt='Icon' width={60} />
+        </div>
+        { title }
+      </div>
       <div css={styles.content}>{ desc }</div>
     </div>
   )
@@ -27,11 +33,11 @@ class ProductsIndex extends React.Component {
         <div css={tw`flex flex-wrap -m-3`}>
           {products.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
-            const desc = node.frontmatter.description
+            const { description, icon } = node.frontmatter
             return (
               <div css={tw`w-full sm:w-1/3 p-3`} key={node.fields.slug}>
                 <Link to={node.fields.slug}>
-                  <ProductItem title={title} desc={desc} />
+                  <ProductItem title={title} desc={description} icon={icon} />
                 </Link>
               </div>
             )
@@ -54,18 +60,23 @@ const styles = {
     border-solid
   `,
   header: tw`
-    py-16
-    bg-blue-600
+    py-12
     font-sans
     font-bold
-    text-white
+    text-gray-700
     text-center
     text-3xl
+    border-b
+    border-solid
+    border-gray-300
   `,
   content: tw`
     p-4
     leading-relaxed
-    text-black
+    text-gray-800
+    text-sm
+    h-24
+    bg-gray-100
   `,
 }
 
@@ -90,6 +101,9 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            icon {
+              publicURL
+            }
           }
         }
       }

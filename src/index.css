@@ -80,6 +80,10 @@ h1, h2, h3, h4, h5 {
   margin-top: -0.5em;
 }
 
+.content ul ul, .content ol ol {
+  margin-top: -1em;
+}
+
 .content ol {
   list-style: decimal;
   margin-left: 2em;
@@ -107,6 +111,12 @@ h1, h2, h3, h4, h5 {
 
 .content pre > code {
   white-space: pre-wrap;
+}
+
+.content p > code {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background: #eee;
+  font-size: 0.9em;
 }
 
 a {

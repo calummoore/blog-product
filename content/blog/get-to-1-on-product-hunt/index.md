@@ -1,5 +1,7 @@
 ---
 title: 'Get #1 on Product Hunt, with no existing following'
+date: "2019-06-05T00:00:00.000Z"
+image: ./promo.png
 ---
 
 ![Headline](promo.png "How to launch and get #1 on Product Hunt")

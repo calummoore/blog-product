@@ -8,6 +8,7 @@ website: webframe.xyz
 github: https://github.com/calummoore/webframe
 status: Launched on PH. No.1 for the day and week 🎉 
 toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5
+image: ./webframe-screenshot.png
 ---
 
 ![Webframe Screenshot](./webframe-screenshot.png "Webframe Screenshot")
@@ -153,13 +154,14 @@ Sunny weather makes me happy 😍! Today is focussed on getting in a launch READ
 
 Not so sunny today, hopefully not an reflective for the launch!
 
-  - [ ] Test webframe.xyz website
-  - [ ] Share with friends!
-  - [ ] Post articles on Medium
-  - [ ] Send e-mail to Saasified mailing list (a previous project)
-  - [ ] Send @tweets to accounts that were used to build webframe.xyz (@tailwind, @fly.io, @reactstatic, @gatsby, @firebase, @mailgun) - retweet posts on @saasified and @calummoore
-  - [ ] Publish dev blog on React Hooks
-  - [ ] Message design communities - Slack, Discord, DesignerNews
-  - [ ] Respond to some more Quora questions
+  - [x] Test webframe.xyz website
+  - [x] Share with friends!
+  - [x] Post articles on Medium
+  - [x] Send e-mail to Saasified mailing list (a previous project)
+  - [x] Send @tweets to accounts that were used to build webframe.xyz (@tailwind, @fly.io, @reactstatic, @gatsby, @firebase, @mailgun) - retweet posts on @saasified and @calummoore
+  - [x] Publish dev blog on React Hooks
+  - [x] Message design communities - Slack, Discord, DesignerNews
+  - [x] Respond to some more Quora questions
   - [ ] Add video of building the product somewhere!?
   
+So the launch went better than expected! I got #1 for the day and week 😍. Thank you to everyone who upvoted. You can checkout the full review of for this product here - [Webframe Launch Review](/webframe-launch-review)

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, graphql } from 'gatsby'
 import firebase from 'config/firebase'
 import { css } from '@emotion/core'
+import tw from 'tailwind.macro'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Input from '../components/base/Input'
@@ -9,7 +10,7 @@ import Button from '../components/base/Button'
 import Video from '../components/Video'
 import ArticleItem from '../components/ArticleItem'
 import { Row, Col } from '../components/grid'
-import tw from 'tailwind.macro'
+import placeholder from 'img/placeholder-icon.png'
 
 const socialBtns = [{
   name: 'Twitter',
@@ -58,9 +59,9 @@ const ProductItem = ({ node }) => {
   const { title, icon, week, description, status } = node.frontmatter
   return (
     <div key={title} css={tw`flex`}>
-      <div>
+      <div css={css`width: 65px;`}>
         <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-          <img css={css`vertical-align: middle; margin-right: 0.3em;`} alt={title} src={icon.publicURL} width={60} />
+          <img css={css`vertical-align: middle; margin-right: 0.3em;`} alt={title} src={icon ? icon.publicURL : placeholder} width={55} />
         </Link>
       </div>
       <div css={tw`ml-1 mt-2`}>
