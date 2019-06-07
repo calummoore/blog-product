@@ -128,16 +128,22 @@ I woke up at 10.30am this morning (because I didn't get to bed until 3am last ni
 
 Today's focus is on creating the first integrated flow for an app - Stripe. If I can get this mega-list on activities done, then we should be roughly back on track!
 
-  - [ ] Create routes for settings, list view and report view
+  - [x] Create routes for settings, list view and report view
+  - [x] Add icon setup to React App
+  - [x] Add authentication - signup/login page
+  - [x] Force users to login to access settings
+  - [x] Add new report (using a modal view)
   - [ ] Add profile to settings page
-  - [ ] Add authentication so users have to login to access settings
+  - [ ] Deploy to domain (and add URL to blog)
   - [ ] Add source view to settings page
+
   - [ ] Create flow source authentication (OAuth) flow - Stripe
   - [ ] Initiate regular interval check (depending on the users settings) 
   - [ ] Request data source on check (and add the data to elasticsearch) - Stripe
   - [ ] Create the modal view (that enables creating a card)
   - [ ] Create a card module for display a line graph
 
+Not a bad day, especially considering I started at 12.00pm. I got the main bulk of the front-end done, but still need to do the integrrations. I will be back on Monday!
 
-Next update - Friday 07 June, 21.00 BST
+Next update - Monday 10 June, 9.00am BST
 
