@@ -6,7 +6,7 @@ image: ./webframe-screenshot.png
 
 ![Webframe Screenshot!](./webframe-screenshot.png "Webframe Screenshot!")
 
-So it’s now been almost a week since the launch of [Webframe](https://webframe.xyz), and I thought now would be a good time to reflect on how it’s all gone down.
+So it’s been almost a week since the launch of [Webframe](https://webframe.xyz), and I thought now would be a good time to reflect on how it’s all gone down.
 
 First, it was much more successful than I had ever anticipated! I somehow managed to not only get #1 product on Product Hunt for the day, but also the week! That surpassed my wildest dreams - a massive thank you 🙏 to everyone who upvoted it!
 

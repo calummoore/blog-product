@@ -28,7 +28,7 @@ function SEO ({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-  const metaImage = image || site.siteMetadata.image
+  const metaImage = image ? `https://1productaweek.com${image}` : site.siteMetadata.image
 
   const imageMeta = metaImage ? [{
     property: `og:image`,
