@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 # website: reporter.xyz
 # github: https://github.com/1productaweek/reporter
 status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2
+toc: Plan,Day 1,Day 2,Day 3
 ---
 
 ## Plan
