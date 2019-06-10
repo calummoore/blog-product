@@ -145,5 +145,19 @@ Today's focus is on creating the first integrated flow for an app - Stripe. If I
 
 Not a bad day, especially considering I started at 12.00pm. I got the main bulk of the front-end done, but still need to do the integrations. I will be back on Monday!
 
-Next update - Monday 10 June, 9.00am BST
+
+### Day 4
+
+🌦 14° - Heavy rain showers and a gentle breeze
+
+Today is going to be a bit of a long shot. I've been thinking and reflecting over the weekend, and I'm starting to feel like the integrations should take a higher priority. If your a user, and your integration is not available, the app is not going to be useful to you. To make this possible (without spending the rest of my life creating integrations), I'm going to allow user generated integrations from (LAUNCH) DAY 1. This is a big task 😬. I'm giving myself today only to try and guage just how big it is. Let's see!
+
+  - [x] Layout the architecture of integrations
+  - [ ] Create initial GUI for integrations - name, icon, code
+  - [ ] Create dropdown for authentication type - OAUTH, BASIC
+  - [ ] Auth / OAuth - 2 options - provide config (redirectUrl, code, etc) OR function
+  - [ ] AWS Lambda / Create a base library that will import user modules and create routes (e.g. /code1, /code2) and proxy request, deploy code to AWS Lambda
+  - [ ] Create a function to allow for gathering the data
+
+Next update - Monday 10 June 2019, 21.00pm BST
 
