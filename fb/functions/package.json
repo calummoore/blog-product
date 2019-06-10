@@ -1,5 +1,5 @@
 {
-  "name": "VEED-functions",
+  "name": "fb-functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "lint": "eslint .",
