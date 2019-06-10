@@ -161,3 +161,6 @@ Today is going to be a bit of a long shot. I've been thinking and reflecting ove
 
 It's been a good day, I think I have achieved enough to validate that the user integrations can be done over the next couple of days - therefore we will be focussing on that approach. Tomorrow, we need to focus on finalising the integrations - versions, authentication, base library.
 
+
+Next update - 10.00am - Tuesday 11 June 2019
+
