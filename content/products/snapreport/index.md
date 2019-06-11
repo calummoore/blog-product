@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 # website: reporter.xyz
 # github: https://github.com/1productaweek/reporter
 status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2,Day 3
+toc: Plan,Day 1,Day 2,Day 3,Day 4, Day 5
 ---
 
 ## Plan
@@ -99,7 +99,7 @@ If there's time:
 ## Daily Log
 
 ### Day 1
-🏃 + ⛅️ 19° - Sunny intervals and a gentle breeze
+Thursday, 05 June 2019: 🏃 + ⛅️ 19° - Sunny intervals and a gentle breeze
 
 Feeling pretty good today. It's always exciting to start a new challenge. I've tried to do an idea like this before and massively over-complicated it, so I need to make sure I don't make that mistake this time!
 
@@ -108,7 +108,7 @@ Feeling pretty good today. It's always exciting to start a new challenge. I've t
 
 ### Day 2
 
-🏃 + ⛅️ 16° - Partly cloudy with a gentle breeze
+Thursday, 06 June 2019: 🏃 + ⛅️ 16° - Partly cloudy with a gentle breeze
 
 Ok, feeling a bit tired - but ready to go.
 
@@ -122,7 +122,7 @@ Argh! It's day 2 and I'm already behind 😅. I've been a bit distracted by tryi
 
 ### Day 3
 
-⛅️ 17° - Light rain showers and a moderate breeze
+Friday, 07 June 2019: ⛅️ 17° - Light rain showers and a moderate breeze
 
 I woke up at 10.30am this morning (because I didn't get to bed until 3am last night - I was trying to finish off my blog article). I then spent some time booking in my something for my girlfriend's birthday. So it's now 12.00pm and I'm just getting started 😅.
 
@@ -148,7 +148,7 @@ Not a bad day, especially considering I started at 12.00pm. I got the main bulk 
 
 ### Day 4
 
-🌦 14° - Heavy rain showers and a gentle breeze
+Monday, 10 June 2019: 🌦 14° - Heavy rain showers and a gentle breeze
 
 Today is going to be a bit of a long shot. I've been thinking and reflecting over the weekend, and I'm starting to feel like the integrations should take a higher priority. If you’re a user, and your integration is not available, the app is not going to be useful to you. To make this possible (without spending the rest of my life creating integrations), I'm going to allow user generated integrations from (LAUNCH) DAY 1. This is a big task 😬. I'm giving myself today only to try and gauge just how big it is. Let's see!
 
@@ -162,5 +162,20 @@ Today is going to be a bit of a long shot. I've been thinking and reflecting ove
 It's been a good day, I think I have achieved enough to validate that the user integrations can be done over the next couple of days - therefore we will be focussing on that approach. Tomorrow, we need to focus on finalising the integrations - versions, authentication, base library.
 
 
-Next update - 10.00am - Tuesday 11 June 2019
+### Day 5
+
+Tuesday, 11 June 2019: 🌨 14° - Drizzle and a gentle breeze
+
+I'm starting a little bit late today (10.00am), as I was up late working on the new intro for the daily vlog that I will be launching soon. Going to focus on finalising the integrations, in particular versions, authentication, base library.
+
+  - [ ] Versions for integrations - update to app and firebase data structure
+  - [ ] Authentication - add basic auth authentication
+  - [ ] Authentication - add OAuth authentication
+  - [ ] Base library
+
+If there's time!
+  - [ ] Display a datatable with timeseries records
+  - [ ] Add a link to the integration maker 
+  - [ ] Add the component library page
+
 
