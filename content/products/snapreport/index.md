@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 # website: reporter.xyz
 # github: https://github.com/1productaweek/reporter
 status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2,Day 3,Day 4, Day 5
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6
 ---
 
 ## Plan
@@ -178,4 +178,37 @@ If there's time!
   - [ ] Add a link to the integration maker 
   - [ ] Add the component library page
 
+So I didn't do any of the above today 😂! Aware of how little time I had left, I re-thought through the process of how to get data into the components. Originally, I had planned to  
 
+That's the power of forcing yourself to launch - you find ways to simplify - which end up improving the end user experience!
+
+
+### Day 6
+
+Wednesday 12 June 2019: 🌦 16° -  Light rain showers and light winds
+
+Now I have a new optimized way to get data into components, I'm going to focus on getting the component editor complete today. The component editor is now the only thing required for user generated components - and so if I can complete that, I will be very close to a finished product!
+
+This is the full list of things I need to do over the next 2 days - but adding here so I have visbility as to what is left!
+
+  - [x] Re-design the component editor with new appraoch
+  - [ ] Build the component editor (UI and Firebase)
+  - [ ] Create the DATA wrapper service (that will be used to deploy)
+  - [ ] Create the COMPONENT bundler service
+  - [ ] Allow component to be embedded (we will actually embed into all reports)
+  - [ ] Create OAUTH authenticator service (and deploy with serverless)!
+  - [ ] Create component selector (to enable adding components to the report)
+  - [ ] Add workspaces to the dashboard page
+  - [ ] Add billing/team to the settings page
+  - [ ] Create a landing page (with report demo)
+  - [ ] Create a pricing page (need to figure out what to charge for!)
+  - [ ] Create a docs page that will describe how to use the component editor
+
+If there's time
+  - [ ] Add a component library for the component editor to use
+  - [ ] Create template cards to get people started
+  - [ ] Add social sharing tools to the reports
+  - [ ] Create a chrome extension to allow reports to be added
+
+
+Wow, that's a lot still to do! Wish me luck!
