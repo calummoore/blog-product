@@ -221,7 +221,7 @@ Wow, that's a lot still to do! Wish me luck!
 
 Thursday 13 June 2019: 🌦 14° -  Light rain showers and a moderate breeze
 
-Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into seperate tasks)!
+Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into seperate tasks) - it's going to be a late night tonight!
 
   - [ ] Build the component editor (UI and Firebase)
   - [ ] Create the DATA wrapper service (that will be used to deploy)
