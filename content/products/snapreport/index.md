@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 # website: reporter.xyz
 # github: https://github.com/1productaweek/reporter
 status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6, Day 7
 ---
 
 ## Plan
@@ -137,6 +137,8 @@ Today's focus is on creating the first integrated flow for an app - Stripe. If I
   - [ ] Deploy to domain (and add URL to blog)
   - [ ] Add source view to settings page
 
+If there's time:
+
   - [ ] Create flow source authentication (OAuth) flow - Stripe
   - [ ] Initiate regular interval check (depending on the users settings) 
   - [ ] Request data source on check (and add the data to elasticsearch) - Stripe
@@ -205,6 +207,7 @@ This is the full list of things I need to do over the next 2 days - but adding h
   - [ ] Create a docs page that will describe how to use the component editor
 
 If there's time
+
   - [ ] Add a component library for the component editor to use
   - [ ] Create template cards to get people started
   - [ ] Add social sharing tools to the reports
@@ -212,3 +215,30 @@ If there's time
 
 
 Wow, that's a lot still to do! Wish me luck!
+
+
+### Day 7
+
+Thursday 13 June 2019: 🌦 14° -  Light rain showers and a moderate breeze
+
+Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into seperate tasks)!
+
+  - [ ] Build the component editor (UI and Firebase)
+  - [ ] Create the DATA wrapper service (that will be used to deploy)
+  - [ ] Create the COMPONENT bundler service
+  - [ ] Allow component to be embedded (we will actually embed into all reports)
+  - [ ] Create OAUTH authenticator service (and deploy with serverless)!
+  - [ ] Create component selector (to enable adding components to the report)
+  - [ ] Add workspaces to the dashboard page
+  - [ ] Add billing/team to the settings page
+  - [ ] Create a landing page (with report demo)
+  - [ ] Create a pricing page (need to figure out what to charge for!)
+  - [ ] Create a docs page that will describe how to use the component editor
+
+If there's time
+
+  - [ ] Add a component library for the component editor to use
+  - [ ] Create template cards to get people started
+  - [ ] Add social sharing tools to the reports
+  - [ ] Create a chrome extension to allow reports to be added
+
