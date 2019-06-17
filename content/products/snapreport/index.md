@@ -193,7 +193,7 @@ Now I have a new optimized way to get data into components, I'm going to focus o
 
 This is the full list of things I need to do over the next 2 days - but adding here so I have visbility as to what is left!
 
-  - [x] Re-design the component editor with new appraoch
+  - [x] Re-design the component editor with new approach
   - [ ] Build the component editor (UI and Firebase)
   - [ ] Create the DATA wrapper service (that will be used to deploy)
   - [ ] Create the COMPONENT bundler service
@@ -223,27 +223,29 @@ Thursday 13 June 2019: 🌦 14° -  Light rain showers and a moderate breeze
 
 Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into seperate tasks) - it's going to be a late night tonight!
 
-  - [x] Re-design the component editor with new appraoch
+  - [x] Re-design the component editor with new approach
   - [ ] Build the component editor (UI and Firebase)
 
-I'm going to need to split this 2nd taks into more sub-items!
+I'm going to need to split this 2nd tasks into more sub-items!
 
 
 ### Day 8
 
 Friday 14 June 2019: 🌥 19° -  Sunny intervals and a gentle breeze 
 
-Yes, I'm aware this is now more than a week 😢. It's a much bigger task than I anticipated, and shouldn't have taken it on for week 2 - but I feel like I'm almost there! I'm setting a new deadline of launching on Wednesday 19th 2019. Wish me luck!
+Yes, I'm aware this is now more than a week 😢. This product has been much bigger task than I anticipated, and I shouldn't have taken it on for week 2 - but I feel like I'm almost there! I'm setting a new deadline of launching on Wednesday 19th 2019. Wish me luck!
 
-  - [x] Create code deployment via AWS Lambda (had to switch from using Zeit Now due to usage limits)
+  - [x] Create code deployment via AWS Lambda
   - [x] Added debug section to code editor
+
+Most of the day was spend working out how to switch to AWS (from Zeit Now) for creating the new services. We now have to build these ourselves as Zeit Now did that for us previously. We had to move from Zeit Now, as they have a maximum number of builds that can be run each day even on their paid plan 😔! I'd missed this during the originally scoping.
 
 
 ### Day 9
 
 Monday 17 June 2019:  21° ☁️ -  Light cloud and a moderate breeze
 
-Lot's to do today, and feeling the pressure of being behind. This is an important day - no distractions!
+Lots to do today, and feeling the pressure of being behind. This is an important day - no distractions!
 
   - [ ] Publish and invoke server code via API call (using Firebase)
   - [ ] Add styles section to the component editor
