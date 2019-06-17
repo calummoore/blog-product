@@ -223,22 +223,36 @@ Thursday 13 June 2019: 🌦 14° -  Light rain showers and a moderate breeze
 
 Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into seperate tasks) - it's going to be a late night tonight!
 
+  - [x] Re-design the component editor with new appraoch
   - [ ] Build the component editor (UI and Firebase)
-  - [ ] Create the DATA wrapper service (that will be used to deploy)
-  - [ ] Create the COMPONENT bundler service
-  - [ ] Allow component to be embedded (we will actually embed into all reports)
-  - [ ] Create OAUTH authenticator service (and deploy with serverless)!
-  - [ ] Create component selector (to enable adding components to the report)
-  - [ ] Add workspaces to the dashboard page
+
+I'm going to need to split this 2nd taks into more sub-items!
+
+
+### Day 8
+
+Friday 14 June 2019: 🌥 19° -  Sunny intervals and a gentle breeze 
+
+Yes, I'm aware this is now more than a week 😢. It's a much bigger task than I anticipated, and shouldn't have taken it on for week 2 - but I feel like I'm almost there! I'm setting a new deadline of launching on Wednesday 19th 2019. Wish me luck!
+
+  - [x] Create code deployment via AWS Lambda (had to switch from using Zeit Now due to usage limits)
+  - [x] Added debug section to code editor
+
+
+### Day 9
+
+Monday 17 June 2019:  21° ☁️ -  Light cloud and a moderate breeze
+
+Lot's to do today, and feeling the pressure of being behind. This is an important day - no distractions!
+
+  - [ ] Publish and invoke server code via API call (using Firebase)
+  - [ ] Add styles section to the component editor
+  - [ ] Build user app and publish script to GCP Storage bucket
+  - [ ] Create the embed service (the controller for the inner embed)
+  - [ ] Add publish button that creates a new version of the card
+  - [ ] Add CRON job that updates unused cards
+  - [ ] Add OAuth provider service (with icon app upload)
+  - [ ] Create card instance modal - to enable creation of new 
+  - [ ] Setup Firebase Firestore structure to include workspaces
+  - [ ] Setup new Firestore rules for workspaces
   - [ ] Add billing/team to the settings page
-  - [ ] Create a landing page (with report demo)
-  - [ ] Create a pricing page (need to figure out what to charge for!)
-  - [ ] Create a docs page that will describe how to use the component editor
-
-If there's time
-
-  - [ ] Add a component library for the component editor to use
-  - [ ] Create template cards to get people started
-  - [ ] Add social sharing tools to the reports
-  - [ ] Create a chrome extension to allow reports to be added
-
