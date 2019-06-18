@@ -275,7 +275,8 @@ Tuesday 18 June 2019:  19° 🌦 -  Light rain showers and light winds
 
  I got a lot done yesterday, but feels like there is still so much to do. I need to find more ways to cut corners to get this out today!
 
-  - [ ] Create card instance modal - to enable creation of new 
+  - [ ] Show a users card templates
+  - [ ] Create card instance modal - to enable creation of new card
   - [ ] Allow card instances to be presented on report
 
 Core functions complete!
