@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 # website: reporter.xyz
 # github: https://github.com/1productaweek/reporter
 status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6, Day 7
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10
 ---
 
 ## Plan
@@ -247,14 +247,44 @@ Monday 17 June 2019:  21° ☁️ -  Light cloud and a moderate breeze
 
 Lots to do today, and feeling the pressure of being behind. This is an important day - no distractions!
 
-  - [ ] Publish and invoke server code via API call (using Firebase)
-  - [ ] Add styles section to the component editor
-  - [ ] Build user app and publish script to GCP Storage bucket
-  - [ ] Create the embed service (the controller for the inner embed)
-  - [ ] Add publish button that creates a new version of the card
-  - [ ] Add CRON job that updates unused cards
-  - [ ] Add OAuth provider service (with icon app upload)
+  - [x] Publish and invoke server code via API call (using Firebase)
+  - [x] Add debug logging records to Firebase (so user can see result of build/run)
+  - [x] Add styles section to the component editor
+  - [x] Build user app and publish script to public GCP Storage bucket
+  - [x] Create the embed service (the controller for the inner embed)
+  - [x] Create inputs section of card editor
+  - [x] Add publish button/modal that creates a new version of the card
   - [ ] Create card instance modal - to enable creation of new 
+  - [ ] Allow card instances to be presented on report
+
+Core functions complete!
+
+  - [ ] Attach data to the embed-controller
   - [ ] Setup Firebase Firestore structure to include workspaces
   - [ ] Setup new Firestore rules for workspaces
+  - [ ] Add versions for published cards
+  - [ ] Add CRON job that updates unused cards
+  - [ ] Add OAuth provider service (with icon app upload)
   - [ ] Add billing/team to the settings page
+  - [ ] Docs to describe the card editor
+
+
+### Day 10
+
+Tuesday 18 June 2019:  19° 🌦 -  Light rain showers and light winds
+
+ I got a lot done yesterday, but feels like there is still so much to do. I need to find more ways to cut corners to get this out today!
+
+  - [ ] Create card instance modal - to enable creation of new 
+  - [ ] Allow card instances to be presented on report
+
+Core functions complete!
+
+  - [ ] Attach data to the embed-controller
+  - [ ] Setup Firebase Firestore structure to include workspaces
+  - [ ] Setup new Firestore rules for workspaces
+  - [ ] Add versions for published cards
+  - [ ] Add CRON job that updates unused cards
+  - [ ] Add OAuth provider service (with icon app upload)
+  - [ ] Add billing/team to the settings page
+  - [ ] Docs to describe the card editor
