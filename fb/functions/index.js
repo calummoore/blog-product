@@ -38,3 +38,27 @@ Calum`
       // console.log('Email', context.params.pushId, val);
       return true
     });
+
+
+exports.sendEmailFeedback = functions.firestore.document('/feedback/{pushId}')
+    .onCreate(async (snapshot, context) => {
+      const val = snapshot.data();
+      if (!val) {
+        return true
+      }
+
+      const { email, feedback } = val
+
+      const data = {
+        from: email,
+        to: 'Calum <calum@1productaweek.com>',
+        subject: '1ProductAWeek Feedback!',
+        text: feedback,
+      };
+
+      await mailgun.messages().send(data).catch((err) => console.error(err))
+
+      // Grab the current value of what was written to the Realtime Database.
+      // console.log('Email', context.params.pushId, val);
+      return true
+    });

@@ -275,17 +275,43 @@ Tuesday 18 June 2019:  19° 🌦 -  Light rain showers and light winds
 
  I got a lot done yesterday, but feels like there is still so much to do. I need to find more ways to cut corners to get this out today!
 
-  - [ ] Show a users card templates
-  - [ ] Create card instance modal - to enable creation of new card
-  - [ ] Allow card instances to be presented on report
+  - [x] Setup Firebase Firestore structure to include workspaces
+  - [x] Design workspace layout
+  - [ ] Create a proxy card for card templates (using the test params)
+  - [ ] Build workspace layout - show a users card templates
+  - [x] Create parent embed
+  - [ ] Create report/card/template instance modal - to enable creation of new card
+  - [x] Allow card instances to be presented on report
 
-Core functions complete!
+Core embed complete
 
-  - [ ] Attach data to the embed-controller
-  - [ ] Setup Firebase Firestore structure to include workspaces
-  - [ ] Setup new Firestore rules for workspaces
-  - [ ] Add versions for published cards
+  - [x] Attach data to the embed-controller
+  - [x] Add versions for published cards
   - [ ] Add CRON job that updates unused cards
   - [ ] Add OAuth provider service (with icon app upload)
+  - [ ] Setup new Firestore rules for workspaces
+  - [ ] Deploy first version
+
+Core features complete
+
   - [ ] Add billing/team to the settings page
   - [ ] Docs to describe the card editor
+  - [ ] Home / pricing pages
+
+
+### Day 11
+
+Wednesday 19 June 2019: 20° 🌦 - Light rain showers and a gentle breeze
+
+Why!?!? Why is this not launched yet. Feels like I'm so close, but there are so many loose ends. I'm really regretting taking on something as big as this, but at least I'm days delayed rather than months. I feel bad, and I need to use that in order to progress more quickly.
+
+Focus, focus, focus!
+
+
+### Day 12
+
+Thursday 20 June 2019: 🌥 19° - Partly cloudy and a gentle breeze
+
+So I built the first card for the system today. This is the start of the end game! I can see the light at the end of the tunnel. I can do this. It's not all perfect and there are lots of things to clear up, but all the pieces are starting to fall into place.
+
+
