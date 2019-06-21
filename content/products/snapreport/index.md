@@ -123,7 +123,7 @@ Argh! It's day 2 and I'm already behind 😅. I've been a bit distracted by tryi
 
 Friday, 07 June 2019: ⛅️ 17° - Light rain showers and a moderate breeze
 
-I woke up at 10.30am this morning (because I didn't get to bed until 3am last night - I was trying to finish off my blog article). I then spent some time booking in my something for my girlfriend's birthday. So it's now 12.00pm and I'm just getting started 😅.
+I woke up at 10.30am this morning (because I didn't get to bed until 3am last night - I was trying to finish off my blog article). I then spent some time booking in something for my girlfriend's birthday. So it's now 12.00pm and I'm just getting started 😅.
 
 Today's focus is on creating the first integrated flow for an app - Stripe. If I can get this mega-list on activities done, then we should be roughly back on track!
 
@@ -166,7 +166,7 @@ If there's time!
   - [ ] Add a link to the integration maker 
   - [ ] Add the component library page
 
-So I didn't do any of the above today 😂! Aware of how little time I had left, I re-thought through the process of how to get data into the components. Originally, I had planned to  
+So I didn't do any of the above today 😂! Aware of how little time I had left, I re-thought through the process of how to get data into the components. Originally, I had planned to have some kind of database/query system - but that seemed like another thing to learn (and a lot of work to create). The new way, is to simply pass pack to the user whatever they returned last time - allowing them to aggregate data each time their cloud function is run! Seems like a pretty powerful yet simple way to power the cards! 🎉
 
 That's the power of forcing yourself to launch - you find ways to simplify - which end up improving the end user experience!
 
@@ -185,7 +185,7 @@ Now I have a new optimized way to get data into components, I'm going to focus o
 
 Thursday 13 June 2019: 🌦 14° -  Light rain showers and a moderate breeze
 
-Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into seperate tasks) - it's going to be a late night tonight!
+Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into separate tasks) - it's going to be a late night tonight!
 
   - [x] Re-design the component editor with new approach
 
@@ -245,6 +245,8 @@ Why!?!? Why is this not launched yet. Feels like I'm so close, but there are so 
 
 Focus, focus, focus!
 
+I forgot (/ was too annoyed) to update here, and now I can't remember what I did on this day. I definitely did something! 😂
+
 
 ### Day 12
 
@@ -252,6 +254,10 @@ Thursday 20 June 2019: 🌥 19° - Partly cloudy and a gentle breeze
 
 So I built the first card for the system today. This is the start of the end game! I can see the light at the end of the tunnel. I can do this. It's not all perfect and there are lots of things to clear up, but all the pieces are starting to fall into place.
 
+  - [x] Add cards to a report
+  - [x] Add new report
+  - [x] Allow cards to be configured
+  - [x] Update cards with data from the serverless fn
 
 
 ### Day 13
