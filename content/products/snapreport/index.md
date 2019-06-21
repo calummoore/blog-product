@@ -315,3 +315,17 @@ Thursday 20 June 2019: 🌥 19° - Partly cloudy and a gentle breeze
 So I built the first card for the system today. This is the start of the end game! I can see the light at the end of the tunnel. I can do this. It's not all perfect and there are lots of things to clear up, but all the pieces are starting to fall into place.
 
 
+
+### Day 13
+
+Friday 21 June 2019: 🌥 21° - Sunny intervals and a gentle breeze
+
+Ok, so key remaining items are:
+
+  - [ ] Add OAuth provider service (with icon app upload)
+  - [ ] Docs to describe the card editor
+  - [ ] Setup new Firestore rules for workspaces
+  - [ ] Home / pricing pages
+
+Then I'll need to create as many cards as possible between now and Wednesday (26 June 2019), which is when I will launch on ProductHunt. I'm hoping to have a preview for everyone here either today or tomorrow.
+
