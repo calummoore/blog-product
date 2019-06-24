@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 # website: reporter.xyz
 # github: https://github.com/1productaweek/reporter
 status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15
 ---
 
 ## Plan
@@ -266,10 +266,33 @@ Friday 21 June 2019: 🌥 21° - Sunny intervals and a gentle breeze
 
 Ok, so key remaining items are:
 
-  - [ ] Add OAuth provider service (with icon app upload)
+  - [x] Add OAuth provider service (with icon app upload)
+  - [ ] Add server instance runner
   - [ ] Docs to describe the card editor
   - [ ] Setup new Firestore rules for workspaces
   - [ ] Home / pricing pages
 
 Then I'll need to create as many cards as possible between now and Wednesday (26 June 2019), which is when I will launch on ProductHunt. I'm hoping to have a preview for everyone here either today or tomorrow.
 
+
+### Day 14
+
+Saturday 22 June 2019 / Sunday 23 June 2019 
+
+I did a half day on both these days, so counting them as one day. 
+
+Ok, so key remaining items are:
+
+  - [x] Write docs to describe the card editor
+  - [x] Add data server function scheduler 
+  - [x] Write docs to describe the card editor
+  - [x] Design homepage
+
+It was a bit slow (work is always slow at weekends!). I am determined to keep to the Wednesday (26 June 2019) launch whatever the cost.
+
+
+### Day 15
+
+Monday 24 June 2019: 🌦 25° - Light rain showers and a gentle breeze
+
+Only 48 hours to finalise everything. Going to need to cut some corners again. All of the main functionality is now complete - but lots of little things to do.
