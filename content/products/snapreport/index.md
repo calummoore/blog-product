@@ -1,13 +1,13 @@
 ---
-title:  Snap Report
+title:  Snapboard
 date: "2019-06-05T00:00:00.000Z"
-description: A dashboard of key metrics from all the apps you use, create unlimited free reports in seconds!
+description: A beautiful hackable dashboard with metrics from all the apps you use, create unlimited free reports in seconds!
 week: 2
 icon: ./snap-report-icon.png
-# website: reporter.xyz
+website: snapboard.io
 # github: https://github.com/1productaweek/reporter
-status: Day 3 - in progress!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15
+status: Day 17 - in progress!
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17
 ---
 
 ## Plan
@@ -281,8 +281,6 @@ Saturday 22 June 2019 / Sunday 23 June 2019
 
 I did a half day on both these days, so counting them as one day. 
 
-Ok, so key remaining items are:
-
   - [x] Write docs to describe the card editor
   - [x] Add data server function scheduler 
   - [x] Write docs to describe the card editor
@@ -296,3 +294,28 @@ It was a bit slow (work is always slow at weekends!). I am determined to keep to
 Monday 24 June 2019: 🌦 25° - Light rain showers and a gentle breeze
 
 Only 48 hours to finalise everything. Going to need to cut some corners again. All of the main functionality is now complete - but lots of little things to do.
+
+
+### Day 16
+
+Tuesday 25 June 2019: 🌥 23° - Sunny intervals and a gentle breeze
+
+This was not a good day, feels like I'm moving back into old ways of moving slow - e.g. doing things which aren't absolutely necessary, or doing things the "right" but slow way.
+
+   - [x] Registered snapboard.io
+   - [x] Created initial component library
+
+I decided to change the name from Snap Report to Snapboard. The "board" aspect fits better with the design of the app, and has less syllables.
+
+
+### Day 17
+
+Wednesday 26 June 2019: 🏃 + ☁️ 23° - Light cloud and a moderate breeze
+
+OK, so much to do today but I have never been more determine to launch this damn product. I'm getting sick of it, and progress has slowed right down. I'm not sure any delay with improve the product much further.
+
+ - [] Enhance firebase rules and security 
+ - [] Create initial set of 100 cards
+ - [] Add billing pages / setup
+
+
