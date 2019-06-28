@@ -18,11 +18,7 @@ redirect_from:
 
 #### Problem
 
-Existing dashboard and reporting tools are overly expensive, difficult to setup and use and no-one really ever checks them (possibly because they're hard to share/find)!? Plus - people often create reports without any idea of why or how they will use them - e.g. what's the aim of the report. People often have multiple side-projects or teams that want to have their own report.
-
-Difficult to setup -> People don't have the data they need -> So they don't look at the reports??
-
-Everyone in the team should be able to create a dashboard that's useful to them (or their team).
+Existing dashboard and reporting tools are overly expensive, difficult to setup / use and no-one really ever checks them (possibly because they're hard to share/find)!? On top of that, everyone wants a different a slightly different view, and if your reporting tool doesn't offer it, then your useless to them.
 
 
 #### User
