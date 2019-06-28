@@ -6,8 +6,8 @@ week: 2
 icon: ./snap-report-icon.png
 website: snapboard.io
 # github: https://github.com/1productaweek/reporter
-status: Day 17 - in progress!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17
+status: Day 19 - overdue!
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19
 ---
 
 ## Plan
@@ -185,7 +185,7 @@ Now I have a new optimized way to get data into components, I'm going to focus o
 
 Thursday 13 June 2019: 🌦 14° -  Light rain showers and a moderate breeze
 
-Not surprisingly, I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into separate tasks) - it's going to be a late night tonight!
+I didn't get even close to everything done. In fact, I'm still working my way through the 2nd task! I remain positive, as that 2nd task is a monster (and should really have been split out into separate tasks) - it's going to be a late night tonight!
 
   - [x] Re-design the component editor with new approach
 
@@ -312,10 +312,27 @@ I decided to change the name from Snap Report to Snapboard. The "board" aspect f
 
 Wednesday 26 June 2019: 🏃 + ☁️ 23° - Light cloud and a moderate breeze
 
-OK, so much to do today but I have never been more determine to launch this damn product. I'm getting sick of it, and progress has slowed right down. I'm not sure any delay with improve the product much further.
+OK, so much to do today but I have never been more determined to launch this damn product. I'm getting sick of it, and progress has slowed right down. I'm not sure any delay with improve the product much further.
 
- - [] Enhance firebase rules and security 
- - [] Create initial set of 100 cards
- - [] Add billing pages / setup
+ - [x] Enhance firebase rules and security 
+ - [x] Create repo for creating cards with previews
+
+Update: A really productive day, I couldn't have worked any faster and got back to approaching things the right way (i.e. not trying to be perfect!). I think I'm still way too optimistic about what I can actually achieve in a day. I need to work fast, but I need to realistic.
 
 
+### Day 18
+
+Thursday 27 June 2019: 🏃 + 🌥 23° - Sunny intervals and a gentle breeze
+
+So, I've decided to push back the launch until next week. There was still too much outstanding. I definitely should have started creating cards earlier (i.e. the main feature of the app!). It was a bit of a slow day, but I now have everything I need to start creating cards. I'm hoping over the next few days I can create enough cards to launch on Tuesday next week.
+
+- [x] Added chart components to @snapboard/ui library
+
+
+### Day 19
+
+Friday 28 June 2019: 🌥 23° - Sunny intervals and a moderate breeze
+
+ - [x] Add env vars
+ - [] Create initial set of 10 cards
+ - [] Add invites / billing features
