@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 website: snapboard.io
 # github: https://github.com/1productaweek/reporter
 status: Day 19 - overdue!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20
 redirect_from:
   - /snapreport
 ---
@@ -335,4 +335,13 @@ Friday 28 June 2019: 🌥 23° - Sunny intervals and a moderate breeze
 
  - [x] Add env vars
  - [] Create initial set of 10 cards
- - [] Add invites / billing features
+
+ A good day overall - managed to get Google OAuth working with Google Analytics - which was no simple task. Still need to focus all efforts on increasing the number of cards available.
+
+
+### Day 20
+
+Monday 01 July 2019: ☁️ 21° - Light cloud and a moderate breeze
+
+  - [x] Improved error and log handling
+  - [ ] Add 10 more cards (from different oauth providers)
