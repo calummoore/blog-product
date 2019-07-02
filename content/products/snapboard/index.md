@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 website: snapboard.io
 # github: https://github.com/1productaweek/reporter
 status: Day 19 - overdue!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20,Day 21
 redirect_from:
   - /snapreport
 ---
@@ -344,4 +344,16 @@ Friday 28 June 2019: 🌥 23° - Sunny intervals and a moderate breeze
 Monday 01 July 2019: ☁️ 21° - Light cloud and a moderate breeze
 
   - [x] Improved error and log handling
-  - [ ] Add 10 more cards (from different oauth providers)
+  - [x] Add 6 more cards (from different oauth providers)
+
+A good day - got a good chunk of initial providers and cards done. 
+
+
+### Day 21
+
+Tuesday 02 July 2019: 🌥 21° - Sunny intervals and a moderate breeze
+
+I've just realised that I need to get my OAuth scopes approved by Google and it takes "several days" 😢. That's going to thow my schedule way off! I think the best thing to do from here is to launch to the 1 Product a Week audience this week and then do a secondary launch on Product Hunt next week.
+
+  - [x] Add 6 more providers
+  - [x] Add basic/token auth options
