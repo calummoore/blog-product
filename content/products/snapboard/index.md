@@ -7,7 +7,7 @@ icon: ./snap-report-icon.png
 website: snapboard.io
 # github: https://github.com/1productaweek/reporter
 status: Day 19 - overdue!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20,Day 21
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20,Day 21,Day 22,Day 23
 redirect_from:
   - /snapreport
 ---
@@ -357,3 +357,38 @@ I've just realised that I need to get my OAuth scopes approved by Google and it 
 
   - [x] Add 6 more providers
   - [x] Add basic/token auth options
+
+
+### Day 22
+
+Wednesday 03 July 2019: 🌥 22° - Sunny intervals and a gentle breeze
+
+Today, I want to focus on getting the billing and user parts of the app completed.
+
+ - [x] Add 3 more cards/providers
+ - [x] Update privacy policy
+ - [] Add user and billing
+ - [] Improve add/edit card experience
+
+Ran into a few proplems today - which took a little while to debug as they were intermittent (worst kind of bugs!). I got an e-mail back from Google today - they wanted an update to my privacy policy, so I've done that.
+
+Overall, not the most productive day - I kind of got distracted. I think it's because I really don't like building the user invite / billing parts of the app, so I just ended up procrastinating...
+
+
+### Day 23
+
+Thursday 04 July 2019: ☀️ 25° - Sunny and light winds
+
+Wahoo, it's sunny today. Makes me so happy. Ok, so I got another e-mail back from Google - I now need to update the homepage (apparently it's too basic for them 😢) - this is the line from the e-mail:
+
+```
+Your homepage must thoroughly describe how your app enhances user functionality.
+```
+
+They also want me to provide them a video walkthrough of the app and authentication.
+
+If I only do one OTHER thing today, let it be the user and billing. I need to do nothing else until that is completed (aside from the Google stuff of course).
+
+ - [] Make updates for Google
+ - [] Add user and billing
+
