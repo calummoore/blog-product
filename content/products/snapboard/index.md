@@ -389,6 +389,26 @@ They also want me to provide them a video walkthrough of the app and authenticat
 
 If I only do one OTHER thing today, let it be the user and billing. I need to do nothing else until that is completed (aside from the Google stuff of course).
 
- - [] Make updates for Google
+ - [x] Make updates for Google
  - [] Add user and billing
 
+
+### Day 24
+
+Friday 05 July 2019: ☀️ 26° - Sunny and a gentle breeze
+
+ - [x] Designed simplified approach to adding cards
+ - [x] Created designs for user and billing
+
+
+### Day 25
+
+Monday 08 July 2019: 🌥 23° - Sunny intervals and a gentle breeze
+
+I'm really starting to get depressed over this product. Feels like it's grown into ANOTHER never ending product. I really want to abandon it completely, but I should atleast launch it.
+
+ - [x] Added 6 more cards / providers
+ - [x] Added lookup values which should simplify card install
+
+
+Still not got approval from Google - I really don't know what they're doing. I did everything they asked for, and no it's all gone quiet. I can't launch without the Google integrations - so I'm literally held holstage by them.
