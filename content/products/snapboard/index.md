@@ -412,3 +412,12 @@ I'm really starting to get depressed over this product. Feels like it's grown in
 
 
 Still not got approval from Google - I really don't know what they're doing. I did everything they asked for, and no it's all gone quiet. I can't launch without the Google integrations - so I'm literally held holstage by them.
+
+
+### Day 26
+
+Tuesday 09 July: ☁️ 23° - Light cloud and a gentle breeze
+
+STILL waiting on Google for their OAuth flow. This is getting really annoying. Regardless - this will be the last day I spend on this product. I'm going to Italy for a wedding over the weekend, and when I come back I will be starting a new product (then when Google finally approves I'll launch it on ProductHunt).
+
+Today, I want to focus on making everything just work really well - removing as many bugs as possible and streamlining the onboarding process.  
