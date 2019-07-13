@@ -421,3 +421,14 @@ Tuesday 09 July: ☁️ 23° - Light cloud and a gentle breeze
 STILL waiting on Google for their OAuth flow. This is getting really annoying. Regardless - this will be the last day I spend on this product. I'm going to Italy for a wedding over the weekend, and when I come back I will be starting a new product (then when Google finally approves I'll launch it on ProductHunt).
 
 Today, I want to focus on making everything just work really well - removing as many bugs as possible and streamlining the onboarding process.  
+
+
+### Day 27
+
+Wednesday 10 July: 🌥 25° - Sunny intervals and a gentle breeze
+
+An update on the Google situation - I've received e-mail from Google, which is just as unclear as every other e-mail from their OAuth team. I'm going to have to clarify that, and can expect to wait another couple of days for a response. This process has been pretty frustrating and unclear - I will probably write a blog post on it.
+
+This is the last day before I go away for a long-weekend wedding in Italy. It probably comes at a good time - as I need some time to reflect on how to move forward with this product, how to get back on track with 1 Product a Week, and how to best deliver updates to you.
+
+Don't expect any updates until Tuesday next week, when I'm back from vacation.
