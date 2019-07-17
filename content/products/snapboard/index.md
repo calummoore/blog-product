@@ -6,8 +6,8 @@ week: 2
 icon: ./snap-report-icon.png
 website: snapboard.io
 # github: https://github.com/1productaweek/reporter
-status: Day 19 - overdue!
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20,Day 21,Day 22,Day 23
+status: Day 29 - LAUNCHING TOMORROW!
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20,Day 21,Day 22,Day 23,Day 24,Day 25,Day 26,Day 27,Day 28,Day 29,LAUNCH
 redirect_from:
   - /snapreport
 ---
@@ -444,4 +444,9 @@ I'm back from my vacation. It was great - I highly recommend Stresa, Italy. I pl
 
 Wednesday 17 July: ☀️ 26° -  Sunny and a gentle breeze
 
-I finally got Google Approval 🎉🎉🎉. Okay, I AM LAUNCHING THIS TOMORROW. NO EXCUSES.
+I finally got Google Approval 🎉🎉🎉. Okay, I AM LAUNCHING THIS TOMORROW. NO EXCUSES. Just going to try and add as many useful cards as possible today. Can I get to 100 cards? That would be awesome. Let's see.
+
+
+### LAUNCH
+
+Thursday 18 July
