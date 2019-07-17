@@ -432,3 +432,16 @@ An update on the Google situation - I've received e-mail from Google, which is j
 This is the last day before I go away for a long-weekend wedding in Italy. It probably comes at a good time - as I need some time to reflect on how to move forward with this product, how to get back on track with 1 Product a Week, and how to best deliver updates to you.
 
 Don't expect any updates until Tuesday next week, when I'm back from vacation.
+
+### Day 28
+
+Tuesday 16 July: ☀️ 27° -  Sunny and a gentle breeze
+
+I'm back from my vacation. It was great - I highly recommend Stresa, Italy. I plan today to spend my time considering how to move forward with Snapboard and 1 Product a Week. I still don’t have Google Approval, so I think the best option is to move on, and just launch it when I get that.
+
+
+### Day 29
+
+Wednesday 17 July: ☀️ 26° -  Sunny and a gentle breeze
+
+I finally got Google Approval 🎉🎉🎉. Okay, I AM LAUNCHING THIS TOMORROW. NO EXCUSES.
