@@ -6,7 +6,7 @@ week: 2
 icon: ./snap-report-icon.png
 website: snapboard.io
 # github: https://github.com/1productaweek/reporter
-status: Day 29 - LAUNCHING TOMORROW!
+status: LAUNCH DAY!
 toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 12,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,Day 20,Day 21,Day 22,Day 23,Day 24,Day 25,Day 26,Day 27,Day 28,Day 29,LAUNCH
 redirect_from:
   - /snapreport
@@ -449,4 +449,8 @@ I finally got Google Approval 🎉🎉🎉. Okay, I AM LAUNCHING THIS TOMORROW. 
 
 ### LAUNCH
 
-Thursday 18 July
+Thursday 18 July - 🌥 24° - Sunny intervals and a gentle breeze
+
+It's finally launched! Can you beliece it. I barely can 😂. Still lots of work to do today, but thrilled with the positive feedback so far. 
+
+Thanks so much to everyone who has shared this so far!
