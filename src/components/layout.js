@@ -10,7 +10,7 @@ class Layout extends React.Component {
     const { title, children } = this.props
     return (
       <>
-        <ProductHunt name='Webframe' id='webframe' />
+        <ProductHunt name='Snaoboard' id='snapboard-2' />
         <div
           style={{
             marginLeft: `auto`,
