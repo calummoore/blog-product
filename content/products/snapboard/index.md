@@ -451,6 +451,6 @@ I finally got Google Approval 🎉🎉🎉. Okay, I AM LAUNCHING THIS TOMORROW. 
 
 Thursday 18 July - 🌥 24° - Sunny intervals and a gentle breeze
 
-It's finally launched! Can you beliece it. I barely can 😂. Still lots of work to do today, but thrilled with the positive feedback so far. 
+It's finally launched! Can you believe it. I barely can 😂. Still lots of work to do today, but thrilled with the positive feedback so far. 
 
 Thanks so much to everyone who has shared this so far!
