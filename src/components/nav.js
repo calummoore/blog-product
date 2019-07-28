@@ -11,6 +11,14 @@ const LinkStyled = styled(Link)`
   `}
 `
 
+const AStyled = styled('a')`
+  margin-right: 1.5em;
+  ${tw`
+    text-gray-700
+    text-sm
+  `}
+`
+
 export default function Nav () {
   return (
     <nav>
@@ -18,6 +26,7 @@ export default function Nav () {
       <LinkStyled to='/products'>Products</LinkStyled>
       <LinkStyled to='/videos'>Videos</LinkStyled>
       <LinkStyled to='/articles'>Articles</LinkStyled>
+      <AStyled href='https://discuss.1productaweek.com'>Discuss</AStyled>
     </nav>
   )
 }
