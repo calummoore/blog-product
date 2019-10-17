@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import firebase from 'config/firebase'
+import axios from 'axios'
 import { Link } from 'gatsby'
 import { css } from '@emotion/core'
 import tw from 'tailwind.macro'
@@ -20,10 +20,12 @@ export default function Signup ({ forceShow, title = <span>Hello <span role='img
 
   const onSubscribe = async (e) => {
     e.preventDefault()
-    await firebase.firestore().collection('subscribers').add({
-      ...formData,
-      product: '1productaweek',
-      date: new Date(),
+    await axios({
+      method: 'POST',
+      data: {
+        email: formData.email,
+      },
+      url: 'https://us-central1-snapreport.cloudfunctions.net/subscribeBlog',
     }).catch((e) => alert(e.message))
     if (localStorage) localStorage.setItem('1productaweek.signup', 'true')
     setSubscribed(true)

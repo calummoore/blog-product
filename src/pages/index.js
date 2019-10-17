@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, graphql } from 'gatsby'
-import firebase from 'config/firebase'
+import axios from 'axios'
 import { css } from '@emotion/core'
 import tw from 'tailwind.macro'
 import Layout from '../components/layout'
@@ -132,10 +132,12 @@ function Home ({ data, location }) {
 
   const onSubscribe = async (e) => {
     e.preventDefault()
-    await firebase.firestore().collection('subscribers').add({
-      ...formData,
-      product: '1productaweek',
-      date: new Date(),
+    await axios({
+      method: 'POST',
+      data: {
+        email: formData.email,
+      },
+      url: 'https://us-central1-snapreport.cloudfunctions.net/subscribeBlog',
     }).catch((e) => alert(e.message))
     alert('Thank you - you\'re successfully subscribed!')
   }
