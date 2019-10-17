@@ -46,7 +46,7 @@ class Layout extends React.Component {
             © {new Date().getFullYear()}
           </footer>
         </div>
-        <Promo product='1productaweek' name='1ProductAWeek' href='/why-one-product-a-week' target='_self' />
+        <Promo product='1productaweek' />
       </>
     )
   }

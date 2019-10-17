@@ -26,7 +26,6 @@ export default function Nav () {
       <LinkStyled to='/products'>Products</LinkStyled>
       <LinkStyled to='/videos'>Videos</LinkStyled>
       <LinkStyled to='/articles'>Articles</LinkStyled>
-      <AStyled href='https://discuss.1productaweek.com'>Discuss</AStyled>
     </nav>
   )
 }
