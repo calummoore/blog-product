@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 import tw from 'tailwind.macro'
 import Nav from '../components/nav'
 import Promo from './base/Promo'
-import ProductHunt from './base/ProductHunt'
+// import ProductHunt from './base/ProductHunt'
 
 class Layout extends React.Component {
   render () {
     const { title, children } = this.props
     return (
       <>
-        <ProductHunt name='Snapboard' id='snapboard-2' />
+        {/* <ProductHunt name='Snapboard' id='snapboard-2' /> */}
         <div
           style={{
             marginLeft: `auto`,
