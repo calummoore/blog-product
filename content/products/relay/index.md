@@ -3,9 +3,7 @@ title:  Relay
 date: "2020-03-31T00:00:00.000Z"
 description: Instant queues, powered by HTTPS
 week: 3
-icon: ./snap-report-icon.png
 website: TBC
-# github: https://github.com/1productaweek/reporter
 status: Day 1
 toc: Plan,Day 1
 ---
