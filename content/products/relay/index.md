@@ -8,6 +8,7 @@ status: Day 1
 toc: Plan,Day 1
 ---
 
+Relay is a modern managed queue (queue as a service), which requires not setup at all!
 
 Relay works like any other queue, but instead of pushing jobs, you push requests - meaning no setup is required!
 
@@ -102,4 +103,5 @@ It's actually my birthday today! So I can't think of anything more fun, than sta
 
   - [ ] Created the plan
   - [ ] Initial design completed
+
 
