@@ -4,7 +4,7 @@ date: "2020-06-19T00:00:00.000Z"
 description: Queue as a service, powered by HTTPS.
 week: 3
 website: TBC
-status: Day 3
+status: Day 5
 toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5
 icon: ./relay-logo.png
 ---
