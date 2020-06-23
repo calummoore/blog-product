@@ -6,7 +6,7 @@ image: ./calum-at-yc.jpg
 
 It’s been almost a year since I launched [Snapboard](/snapboard) (which was only week 2 of 1 Product a Week 😅), and I’ve finally decided to take it out of [retirement](/1product-a-week-whats-next/).
 
-It’s been a pretty wild ride since that laucnh, which ended up getting into the [YC](https://ycombinator.com) W20 batch - which was an incredible experience even if it got cut short due to coronavirus (more on that later, but feel free to ping me if you're applying - happy to help)!
+It’s been a pretty wild ride since that launch, which ended up getting me into the [YC](https://ycombinator.com) W20 batch - which was an incredible experience even if it got cut short due to coronavirus (more on that later, but feel free to ping me if you're applying - happy to help)!
 
 ![Calum at YC](./calum-at-yc.jpg "Calum at YC")
 
@@ -14,6 +14,6 @@ I’ve not stopped working on Snapboard, I really believe there is a real need h
 
 In the spirit of learning from my mistakes, one major change to the 1PAW criteria will be that **all products will now have an enforced paid plans at launch** - and the success will be evaluated on revenue alone. I'll still be generous with the free plan, but It's really easy to lose focus when you're not getting revenue - and you can end up prioritising the wrong peoples feedback.
 
-Any way, expect more updates from now on 👍 - no matter what I'm going to continue blogging about my experience. The first product is [Relay](/relay) - check it out here, and I’ll be launching it on Product Hunt on Thursday 25th June at midnight (12am PST).
+Anyway, expect more updates from now on 👍 - no matter what I'm going to continue blogging about my experience. The first product is [Relay](/relay) - check it out here, and I’ll be launching it on Product Hunt on Thursday 25th June at midnight (12am PST).
 
-As always, if you have any questions or comments feel free to ping me at calum@1productaweek.com.
+As always, if you have any questions or comments feel free to ping me at [calum@1productaweek.com](mailto: calum@1productaweek.com).

@@ -6,6 +6,7 @@ week: 3
 website: TBC
 status: Day 1
 toc: Plan,Day 1
+icon: ./relay-logo.png
 ---
 
 Relay is a modern managed queue (queue as a service), which requires not setup at all!
