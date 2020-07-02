@@ -13,14 +13,14 @@ redirect_from:
 
 ![Relay Screenshot](./relay-screenshot.png "Relay Screenshot")
 
-Relay is a modern managed queue (queue as a service), which requires no setup as it works over HTTPS! Relay works like any other queue, but instead of pushing jobs, you push requests.
+Ralley is a modern managed queue (queue as a service), which requires no setup as it works over HTTPS! Ralley works like any other queue, but instead of pushing jobs, you push requests.
 
-Simply prefix a request with `relay.to/` and we'll queue and forward the request with the exact same body/headers/parameters. 
+Simply prefix a request with `ralley.to/` and we'll queue and forward the request with the exact same body/headers/parameters. 
 
 No additional configuration for your endpoint, requests can be sent directly as normal (sync) or via the ralley queue (async).
 
 
-You can use Relay to:
+You can use Ralley to:
 
  * **retry** requests that error automatically or manually
 
