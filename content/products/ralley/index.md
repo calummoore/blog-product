@@ -1,12 +1,14 @@
 ---
-title:  Relay
+title:  Ralley
 date: "2020-06-19T00:00:00.000Z"
 description: Queue as a service, powered by HTTPS.
 week: 3
-website: TBC
-status: Day 5
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5
+status: Day 13
+website: ralley.io
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 13
 icon: ./relay-logo.png
+redirect_from:
+  - /relay
 ---
 
 ![Relay Screenshot](./relay-screenshot.png "Relay Screenshot")
@@ -91,6 +93,7 @@ Developer - especially if they are using serverless (Zeit, AWS Lambda).
  * Globally distribute Redis for even lower latency
  * Library for each language - NodeJS, PHP, Ruby, C, Go, etc
  * Send to multiple API endpoints at once
+ * Send from web with progress tracking
 
 
 ## Daily Log
@@ -109,10 +112,6 @@ Not too bad a start considering how few hours I actually had available. I'll nee
 
 ![Planning my day](./planning-my-day.png "Planning my day")
 
-And here's the summary of the day:
-
-![Productivity](./productivity-1906.png)
-
 
 ### Day 2
 Saturday, 20 June 2020
@@ -124,13 +123,16 @@ Ok, so on the weekends there will be more less productive time - but I like to c
   - [x] Build the login/signup system
   - [x] Reading up on types (again!)
 
+Actually very little got done today, but that's okay! Taking a break for weekends is important.
+
 ![Productivity](./productivity-2006.png)
+
 
 
 ### Day 3
 Sunday, 21 June 2020
 
-Ok, so on the weekends there will be less productive time - but I like to code as part of my downtime, so stuff still gets done.
+More productive today...
 
   - [x] Create layout for workspace/app console
   - [x] Add user settings dropdown menu
@@ -156,17 +158,119 @@ Much better in terms of productivity - which is to be expected given its a work 
 
 ![Console](./console.png)
 
-And here's the summary of the day:
-
-![Productivity](./productivity-2206.png)
 
 
 ### Day 5
 Tuesday, 23 June 2020
 
-  - [x] Updates to 1PAW and get launch material ready
-  - [x] Update design for homepage
-  - [ ] Finalize add new request (from yesterday)
-  - [ ] Create detail view for request logs
+Docs took quite a while - still haven't found a solid service for doing my docs for me! I'm not too happy with the pricing either ($10 for 1M requests). It under-charges lower use cases and over charges upper use cases, and it's really hard at $10 to make anything worthwhile (expect more on this later!)
 
-TBC...
+ - [x] Update 1PAW
+ - [x] Create initial pricing page
+ - [x] Create initial docs
+
+![Pricing](./pricing.png)
+
+
+### Day 6
+Wednesday, 24 June 2020
+
+Still hoping to launch tomorrow!
+
+ - [x] Continue working on docs
+ - [x] Implement [schedueled (e.g. cron/interval) jobs](https://ralley.io/docs/#schedule)
+ - [x] Add use cases to the home page
+ - [x] Buy the domain [ralley.io](https://ralley.io)  (getting real!)
+ - [x] Add onboarding message when no jobs have been sent yet
+
+![Use cases](./use-cases.png)
+
+
+
+### Day 7
+Thursday, 25 June 2020
+
+Darn, no launch today (stayed up until 4am to try and get it all done) - still quite a bit outstanding. The launch will have to be next week now 😅 as we don't launch on Fri, Sat, Sun! We're now aiming for Monday, 29 June.
+
+There's still quite a bit to do, not sure how I thought I was going to launch today! 😂
+
+ - [x] Create a [bulk API](https://ralley.io/docs/#bulk) (this took most of the day)
+ - [x] Allowed record to be re-processed
+ - [x] Strip Ralley headers/params from requests before forwarding
+ - [x] Played Call of Duty with a friend! 🔫🔫🔫🔫
+
+
+### Day 8
+Friday, 26 June 2020
+
+I spent a fair bit of time deciding whether to go for [fly.io](https://fly.io) or [GCP](https://cloud.google.com) - in the end I went for GCP. Partly because it's what I'm used to and I like there build/devop tooling (oh and it's free because I'm on the start up plan! 😍)
+
+ - [x] Deploy to staging/production
+
+This took a lot longer than expected - there's a whole bunch to do. I need to better document this process for future projects as a lot of boilerplate is required.
+
+Finished at 8pm today 🙌
+
+
+### Day 9
+Saturday, 27 June 2020
+
+It's the weekend so not as productive - still focussed on sorting out a good deployment flow. I will write a blog about this setup at some point.
+
+ - [x] Deploy to staging/production
+ - [x] Allow scheduled jobs to be removed/paused
+
+
+### Day 10
+Sunday, 28 June 2020
+
+No work today - spent the day with my girlfriends family!
+
+
+### Day 11
+Monday, 29 June 2020
+
+So, today was another scheduled launch day - which I've missed again. Is this becoming a habbit? I'm still feeling positive, but there is a nagging feeling in my head that this is starting to drag on...
+
+New launch day Wednesday 1 July 2020.
+
+
+ - [x] Add [react-query](https://github.com/tannerlinsley/react-query) for better caching (for non-firebase based requests)
+ - [x] Copied the settings modal from [Snapboard](https://snapboard.io) - we need to find a way of packaging this into something open source, as its the same for all apps!
+
+ ![Settings](./settings.png)
+
+
+### Day 12
+Tuesday, 30 June 2020
+
+Wow, adding billing is hard. I thought I could copy a lot of this from Snapboard, but it turns out that Ralley has quite a different pricing modal AND Snapboard didn't actually enforce limits. I've also been reviewing the pricing stragey and this is what I've come up with
+
+ - [x] Add billing
+ - [x] Create e-mail templates for onboarding, etc
+
+ ![Email](./email.png)
+
+
+### Day 13
+Wednesday, 1 July 2020
+
+Note to self: YOU HAVE TO LAUNCH TOMORROW 😅. 
+
+ - [x] Continue with billing 😭
+ - [x] Enforce provisioned limits and send updates to Stripe
+
+Ah man, did not launch today - we are so close, but there was a few quality issues and I don't want to launch with those.
+
+
+
+### Day 13
+Thursday, 2 July 2020
+
+NOOOOOOOOOOOOOOOOOOOOOO 😭😭😭😭😭😭 - I stayed up until until 5am but called off the launch because there was just too many small bugs that needed to be cleared up... and I remembered that I hadn't fully finished account deletion - and from my experience, people are really unhappy when you don't let them delete their account - so it's a must.
+
+I feel like the main reason for the delay though is the billing. It took me almost all of yesterday, and meant I didn't have enough time to finish the other stuff - really need to make sure I come up with something repeatable here!
+
+ - [x] Update 1PAW
+ - [x] Add more E2E testing of API 
+ - [x] Finanlise dealtion of workspace
