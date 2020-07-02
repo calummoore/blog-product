@@ -209,7 +209,7 @@ I spent a fair bit of time deciding whether to go for [fly.io](https://fly.io) o
 
 This took a lot longer than expected - there's a whole bunch to do. I need to better document this process for future projects as a lot of boilerplate is required.
 
-Finished at 8pm today 🙌
+Finished at 8pm today 🙌 - it's the weekend!! 🍺
 
 
 ### Day 9
