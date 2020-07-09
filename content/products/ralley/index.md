@@ -5,7 +5,7 @@ description: Queue as a service, powered by HTTPS.
 week: 3
 status: Day 13
 website: ralley.io
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 13
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Day 13,Day 14,Day 15,Day 16,Day 17,Day 18,Day 19,LAUNCH
 icon: ./relay-logo.png
 redirect_from:
   - /relay
@@ -274,3 +274,75 @@ I feel like the main reason for the delay though is the billing. It took me almo
  - [x] Update 1PAW
  - [x] Add more E2E testing of API 
  - [x] Finanlise dealtion of workspace
+
+
+### Day 13
+Thursday, 2 July 2020
+
+NOOOOOOOOOOOOOOOOOOOOOO 😭😭😭😭😭😭 - I stayed up until until 5am but called off the launch because there was just too many small bugs that needed to be cleared up... and I remembered that I hadn't fully finished account deletion - and from my experience, people are really unhappy when you don't let them delete their account - so it's a must.
+
+I feel like the main reason for the delay though is the billing. It took me almost all of yesterday, and meant I didn't have enough time to finish the other stuff - really need to make sure I come up with something repeatable here!
+
+ - [x] Update 1PAW
+ - [x] Add more E2E testing of API 
+ - [x] Finanlise dealtion of workspace
+
+
+### Day 14
+Friday, 3 July 2020
+
+More testing, so I can feel more confident about the launch.
+
+ - [x] Add more E2E feature tests
+ - [x] Update docs
+
+Finished at 7pm today - always nice to finish on time on a Friday!
+
+
+### Day 15
+Saturday, 4 July 2020
+
+Mostly had the day off - did a couple of hours in the afternoon.
+
+ - [x] Proxy the API via the nginx router (in staging/production)
+ - [x] Fix some of the onboarding steps 
+
+
+### Day 16
+Sunday, 5 July 2020
+
+No work today - although I had a haircut at last ✂️!
+
+
+### Day 17
+Monday, 6 July 2020
+
+Can't launch today as it's a US holiday, and I need US people to be on ProductHunt when I launch. 😍
+
+ - [x] Enable deletion of workspace / user profiles
+ - [x] Fix handling of body data (using base64)
+
+
+### Day 18
+Tuesday, 7 July 2020
+
+ - [x] Finalize the invite user flow
+ - [x] Prepare the ProductHunt resources
+
+
+### Day 19
+Wednesday, 8 July 2020
+
+Super nervous about launching - still hoping to do this today, although I do have tomorrow as a backup in case it doesn't all get done.
+
+ - [x] Testing, Testing, Testing
+ - [x] Load and perfomance testing
+ - [x] Autoscaling nodes
+
+
+### LAUNCH
+Thursday, 9 July 2020
+
+LAUNCH DAY - it's finnaly here, for the 3rd, 4th, 5th time (I've lost count 😅). I really wanted to make sure the reliability and auto-scaling was all in place for launch - and now that's complete I really have no excuses.
+
+I'm going to have a beer when all this is over!
