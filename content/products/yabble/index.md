@@ -74,6 +74,7 @@ So here are my initial thoughts on how to combat some of these problems - I’ll
 	* Weekly e-mails - on time saved?
 	* Menu bar - so people can access really easily start a meeting
 * Providing some solid initial use cases which are obvious
+* Not requiring the whole company to use it for it be effective
 
 
 #### Marketing (after PH launch)
@@ -121,13 +122,18 @@ I wasn’t sure on the best approach for recording the video - these were the op
 
 I was reluctant to go for option 3, as it seemed like over engineering the solution, but I found very little 
 
-I also spoke to a friend (founder over at [VEED](https://veed.io) about the idea - he told me that his main concerns where: 
+I spoke to a friend (Sabba over at [VEED](https://veed.io) about the idea - he told me that his main concerns where: 
 * Remote stand ups (this has been done quite a bit, but I think the UX of this could be improved)
-* Calendly for his team - a lot of them 
+* Calendly for his team - a lot of them struggled to work out the best time to schedule a meeting with someone (especially across timezones and different working patterns).
+* Zoom feels a bit clunky, and takes time to load and setup the call (they currently use Hangouts or Slack for meetings)
+* Would like to be able to record/trascribe meetings they have
+* Directory for the team - what's their timezone, role, etc
 
-Another friend (founder of [ToDesktop](https://www.todesktop.com/)) also mentioned that there might be an issue with people overthinking their recordings - something I'd considered already, but clearly its a key concern.
+Another friend (David of [ToDesktop](https://www.todesktop.com/)) also mentioned that there might be an issue with people overthinking their recordings - something I've considered, but clearly something that needs solving.
 
-I'd love to get your feedback, if you have any of your own thoughts ping me a mail at [calum@1productaweek.com](mailto:calum@1productaweek.com).
+I also spoke a friend (Melissa at [Cadence](https://www.producthunt.com/posts/cadence-2)) that had been working on something similar, and she talked about her experiences working in this area. The key problem she raised was that it was difficult to get by in from the whole team at once, and if not everyone was using it, it became much less useful. I've added this to my keys to success - we need to be able to find a way to make this useful, even if only part of a team/company are using the app!
+
+**I'd love to get your feedback**, if you have any of your own thoughts ping me a mail at [calum@1productaweek.com](mailto:calum@1productaweek.com).
 
 
 ### Day 1
@@ -135,9 +141,9 @@ Thursday, 26 Nov 2020
 
 Bit of a frustrating start to the day, as I had problems copying the boilerplate over from Snapboard to the new Yabble repo. It seems like new versions of both Typescript and CRA have been released, and this caused a lot of dependency conflicts. In the end, I had to spend the time to update everything (which resulted in quite a few breaking changes that needed to be fixed).
 
-But alas, I now have a basic homepage, login, etc up and running (mostly copied from Snapboard) and I’ve deployed it here - https://yabble.io. Feel free to sign up and explore as I build, but I can't guarantee data will stick around until it’s officially launched next week!
+But alas, I now have a basic homepage, login, etc up and running (mostly copied from Snapboard) and I’ve deployed it here - https://yabble.io. Feel free to sign up and explore as I build, but I can't guarantee anything will work or data will stick around until it’s officially launched next week!
 
-Setup infrastructure - Google Cloud, Sentry, FullStory, Google Analytics, Email, Netlify, Stripe
+Setup infrastructure and boilerplate for the app - Google Cloud, Sentry, FullStory, Google Analytics, Email, Netlify, Stripe
 
 
 
