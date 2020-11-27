@@ -102,6 +102,8 @@ So here are my initial thoughts on how to combat some of these problems - I’ll
 
 ### Pre-Start
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KBHQ-g9TJyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I spent the beginning part of the week exploring different ideas - and checking some product / technical assumptions.
 
 As part of the validation, I wanted to get some proof of concepts done on the dev side, nothing worse than building out the app, only to realise the core technology doesn’t work as you expect!
