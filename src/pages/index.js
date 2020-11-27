@@ -95,7 +95,7 @@ function Home ({ data, location }) {
   const allPages = data.allMarkdownRemark.edges
   const posts = allPages.filter(({ node }) => node.fields.type === 'blog')
   const products = allPages.filter(({ node }) => node.fields.type === 'products')
-  const videos = data.allYoutubeVideo.edges
+  // const videos = data.allYoutubeVideo.edges
 
   const socialBtnsEl = socialBtns.map(({ title, icon, href }) => (
     <a css={tw`p-1`} href={href} target='_blank' rel='noreferrer noopener'>
@@ -103,14 +103,14 @@ function Home ({ data, location }) {
     </a>
   ))
 
-  const videoListEl = (videos || []).map(({ node }) => {
-    const { id, title, videoId } = node
-    return (
-      <Col css={tw`mb-6`} gutter={2} sm={6} key={id}>
-        <Video title={title} videoId={videoId} />
-      </Col>
-    )
-  })
+  // const videoListEl = (videos || []).map(({ node }) => {
+  //   const { id, title, videoId } = node
+  //   return (
+  //     <Col css={tw`mb-6`} gutter={2} sm={6} key={id}>
+  //       <Video title={title} videoId={videoId} />
+  //     </Col>
+  //   )
+  // })
 
   const postEl = posts.map(({ node }) => (
     <div css={tw`mt-6 mb-6`}>
@@ -158,12 +158,12 @@ function Home ({ data, location }) {
             <Title css={tw`mt-6`} to='/products'>Products</Title>
             { productsEl }
           </div>
-          <div css={tw`mt-12 mb-20`}>
+          {/* <div css={tw`mt-12 mb-20`}>
             <Title css={tw`mt-6`} to='/videos'>Videos</Title>
             <Row css={css`width: 100%; margin-top: 1em;`} gutter={2}>
               { videoListEl }
             </Row>
-          </div>
+          </div> */}
           <div css={tw`mt-12 mb-20`}>
             <Title css={tw`mt-6`} to='/articles'>Articles</Title>
             { postEl }
@@ -216,22 +216,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    allYoutubeVideo (limit: 4, sort:{ fields: publishedAt, order: DESC })  {
-      edges {
-        node {
-          id
-          videoId
-          title
-          publishedAt(formatString: "MMMM DD, YYYY")
-          description
-          thumbnail {
-            url
-            width
-            height
-          }
-        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

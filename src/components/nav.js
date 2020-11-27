@@ -24,7 +24,7 @@ export default function Nav () {
     <nav>
       <LinkStyled to='/why-one-product-a-week'>About</LinkStyled>
       <LinkStyled to='/products'>Products</LinkStyled>
-      <LinkStyled to='/videos'>Videos</LinkStyled>
+      <AStyled href='https://www.youtube.com/channel/UCT2lsptYf4WvBsCNBqqHAgQ'>Videos</AStyled>
       <LinkStyled to='/articles'>Articles</LinkStyled>
     </nav>
   )

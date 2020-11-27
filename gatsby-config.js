@@ -12,14 +12,14 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-source-youtube-v2`,
-      options: {
-        channelId: ['UCT2lsptYf4WvBsCNBqqHAgQ'], // 'UCT2lsptYf4WvBsCNBqqHAgQ',
-        apiKey: process.env.YOUTUBE_KEY,
-        maxVideos: 50, // Defaults to 50
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-youtube-v2`,
+    //   options: {
+    //     channelId: ['UCT2lsptYf4WvBsCNBqqHAgQ'], // 'UCT2lsptYf4WvBsCNBqqHAgQ',
+    //     apiKey: process.env.YOUTUBE_KEY,
+    //     maxVideos: 50, // Defaults to 50
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
