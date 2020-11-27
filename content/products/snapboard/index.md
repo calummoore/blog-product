@@ -1,7 +1,7 @@
 ---
 title:  Snapboard
 date: "2019-06-05T00:00:00.000Z"
-description: A beautiful hackable dashboard with metrics from all the apps you use, create unlimited free reports in seconds!
+description: A beautiful hackable dashboard with metrics from all the apps you use, create unlimited free boards!
 week: 2
 icon: ./snap-report-icon.png
 website: snapboard.io

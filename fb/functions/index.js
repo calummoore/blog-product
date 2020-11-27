@@ -23,13 +23,13 @@ exports.sendEmailFirestore = functions.firestore.document('/subscribers/{pushId}
         subject: 'You\'re subscribed to 1ProductAWeek!',
         text: `Hi
 
-Thanks for subscribing 🙏! You've been added to the list and should expect ~1 e-mail update a week.
+        Thanks for subscribing 🙏! You've been added to the list and should expect ~1 e-mail update a week.
 
-You can also follow us on @1productaweek on Twitter.
+        You can also follow us on @1productaweek on Twitter.
 
 
-Thanks again,
-Calum`
+        Thanks again,
+        Calum`
       };
 
       await mailgun.messages().send(data).catch((err) => console.error(err))
