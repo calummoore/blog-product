@@ -7,6 +7,7 @@ status: Just getting started
 website: yabble.io
 toc: Plan,Day 1,Day 2
 icon: ./yabble-logo.png
+image: ./screenshot.png
 ---
 
 ![Yabble Screenshot](./screenshot.png "Yabble Screenshot")
