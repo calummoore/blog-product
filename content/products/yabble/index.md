@@ -173,15 +173,15 @@ So I've now got the basic functionality working -
 
 We don't yet have an option to reply to a message, so that will be the next key step for the MVP.
 
-I spent quite a bit of time understanding the different video formats (wars) and what it all means. It turns out the OpenVidu video server records the meetings as webm, but webm is not supported by IE or Apple (supposedly for hardware and/or licensing reasons, [depending on who you speak to](https://www.reddit.com/r/apple/comments/40b3y3/this_is_how_you_can_play_webm_in_safari/cysutuq?utm_source=share&utm_medium=web2x&context=3)). MP4 (with H.264 encoding) is supported by all browsers, but there doesn't seem to be a way to transcode from webm to MP4 on the fly, which means that anyone on those browsers would have to wait for the conversion of the entire video before being able to view it. If the video is long, this could take a long time (e.g. many minutes)!
+I spent quite a bit of time understanding the different video formats (wars) and what it all means. It turns out the OpenVidu video server records the meetings as webm, but webm is not supported by IE or Apple (supposedly for hardware and/or licensing reasons, [depending on who you speak to](https://www.reddit.com/r/apple/comments/40b3y3/this_is_how_you_can_play_webm_in_safari/cysutuq?utm_source=share&utm_medium=web2x&context=3)). MP4 (with H.264 encoding) is supported by all browsers, but there doesn't seem to be a way to transcode from webm to MP4 on the fly, which means that anyone on those browsers would have to wait for the conversion of the entire video before being able to view any of it. If the video is long, this could take a long time (e.g. many minutes)!
 
-To add to the complication, Chrome and FF will only allow seeking behavior if your [server responds to partial data requests](https://stackoverflow.com/questions/8088364/html5-video-will-not-loop). This makes on the fly transcoding even harder, because the browser will request a specific chunk in the final format (e.g. MP4), and we'll some how find the corresponding part inside the webm file - honestly I don't think that is possible.
+To add to the complication, Chrome and FF will only allow seeking behavior if your [server responds to partial data requests](https://stackoverflow.com/questions/8088364/html5-video-will-not-loop). This makes on the fly transcoding even harder, because the browser will request a specific chunk in the final format (e.g. MP4), and we'll some how find the corresponding part inside the pre-converted webm format - honestly I don't think that is possible.
 
 An avenue for investigation is HLS, which basically splits up a stream into multiple MP4 chunks and then plays them consecutively. HLS is not well supported natively, but there are libraries that provide wide platform support (after all it is just MP4). Given the chunks are small, it may be easier to encode an entire chunk on the fly, and then select the requested part for seeking support - although I'm not even sure if seeking would work the same way with HLS.
 
 Alternatively, I could look at either modifying OpenVidu or going with another MediaServer platform so that I can export videos in MP4, however I have read that this can lead to very large MP4 files as they are not optimized for streaming. 
 
-Finally, one further bit of complication/annoyance is that OpenVidu (for some unknown reason) decides to spend extra CPU cycles zipping all of the webm videos when the session ends. This makes it more tricky as we have to wait for the zip to complete, only to unzip again to decode. It's more annoying than anything else.
+Finally, one further bit of complication/annoyance is that OpenVidu (for some unknown reason) decides to spend extra CPU cycles zipping all of the webm videos when the session ends. This makes it more tricky as we have to wait for the zip to complete, only to unzip again to decode. We can handle it, it's just more annoying than anything else.
 
 
 ### Day 4
@@ -189,8 +189,27 @@ Tuesday 1 Dec 2020
 
 Today, I want to get the following done:
 
- * Quick look to see if I can get HLS to work on the fly
- * Reply to a video
- * Update the video player to show multiple videos as a playlist
- * Allow threads to be renamed
+ - [x] Quick look to see if I can get HLS to work on the fly
+ - [x] Reply to a video
+ - [x] Update the video player to show multiple videos as a playlist
+ - [x] Deploy latest to staging
+ - [-] Allow threads to be renamed
 
+Not a bad day at all, I spent a bit too long on the first task - but I do feel like I have a better understanding of all the different video options available. Honestly, video is still a bit of a mess on the web. 😅
+
+I basically have two options available for Safari/IE users (i.e. people who can't use webm) - 
+
+ 1. HLS after video ends - after the video ends, we'll quickly spin up a job to transcode the video into HLS chunks. Because we're using HLS, the user will be able to stream something very quickly (after a few seconds), and as more is transcoded more will be available.
+
+ 2. HLS during OpenVidu output - it may be possible to tweak some options in OpenVidu's core to enable a dual output of both webm and MP4 HLS (or in this case we might just opt for MP4). We'll probably still use HLS because streaming into a large MP4 ends up creating a very bloated file.
+
+I'm going to park this for now, as I need to get on with rest of the UI and process - but we have a way forward when we need it.
+
+
+### Day 5
+Wednesday 2 Dec 2020
+
+ - [x] Deploy latest to prod
+ - [ ] Improve the reply to video experience (new UX)
+ - [ ] Improve the new meeting screen
+ - [ ] Allow threads to be renamed
