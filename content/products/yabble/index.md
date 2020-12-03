@@ -193,7 +193,7 @@ Today, I want to get the following done:
  - [x] Reply to a video
  - [x] Update the video player to show multiple videos as a playlist
  - [x] Deploy latest to staging
- - [-] Allow threads to be renamed
+ - [ ] Allow threads to be renamed
 
 Not a bad day at all, I spent a bit too long on the first task - but I do feel like I have a better understanding of all the different video options available. Honestly, video is still a bit of a mess on the web. 😅
 
