@@ -210,6 +210,25 @@ I'm going to park this for now, as I need to get on with rest of the UI and proc
 Wednesday 2 Dec 2020
 
  - [x] Deploy latest to prod
+ - [x] Improve the UX for watching video streams
  - [ ] Improve the reply to video experience (new UX)
  - [ ] Improve the new meeting screen
- - [ ] Allow threads to be renamed
+
+Felt like good progress today. I implemented a different UX for the video streams (watching a set of images), which I think both improves the experience and is much easier to code. I still there is a LOT of improvements wee can make to the UX - but its a good start.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/00bd89e7057f4be1bb9319ec8e78245f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+I spent a bit more time working on types again, I've spent a significant amount of time on them so far - but this is time well spent. Everything from the DB > Prisma > API server > web frontend is now typed - and I've already discovered a bunch of bugs as a result. Having everything type safe will actually let me work faster, as I can quickly make changes knowing that types have my back!
+
+
+### Day 6
+Thursday 2 Dec 2020
+
+ - [x] Replace REST API with GraphQL
+ - [x] Remove REST API from front-end
+ - [x] Implement a rate-limiter for GraphQL (in particular for auth based queries)
+ - [ ] Add settings for workspace and user
+ - [ ] Test the billing flow (copied from a previous project, but I think it's broken!)
+ - [ ] Improve the UX for recording a reply (this will be done inline)
+ - [ ] Improve the UX for creating a new meeting 
+
