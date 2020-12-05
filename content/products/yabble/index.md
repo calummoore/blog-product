@@ -5,7 +5,7 @@ description: Better meetings for your team.
 week: 4
 status: Just getting started
 website: yabble.io
-toc: Plan,Day 1,Day 2
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7
 icon: ./yabble-logo.png
 image: ./screenshot.png
 ---
@@ -227,8 +227,36 @@ Thursday 2 Dec 2020
  - [x] Replace REST API with GraphQL
  - [x] Remove REST API from front-end
  - [x] Implement a rate-limiter for GraphQL (in particular for auth based queries)
- - [ ] Add settings for workspace and user
+ - [x] Add settings for workspace and user
  - [ ] Test the billing flow (copied from a previous project, but I think it's broken!)
  - [ ] Improve the UX for recording a reply (this will be done inline)
  - [ ] Improve the UX for creating a new meeting 
+
+Not a bad day again today, but still didn't get to the key UX improvements.
+
+
+### Day 7
+Friday 3 Dec 2020
+
+I totally messed up the login system yesterday and didn't notice, so I'll need to fix that today. I really need to make sure we have some basic E2E tests (using Cypress) before we go live.
+
+ - [x] Improve the UX for recording a reply (this will be done inline)
+ - [x] Improve the UX for creating a new meeting 
+ - [x] Fix video recording delay
+ - [x] Fix login issue (whoops)
+
+
+Wow, what a productive day! For sure, it's very basic right now, but it feels like the main parts are in. It's totally usable for the basic use case! This puts us on track for a launch on Wednesday or Thursday next week - which if it happens would be the closest thing to a week I've ever done 🎉😅
+
+
+There's been two key things I've been thinking about over the last couple of days:
+
+ 1. The intercept - in order for a productivity tool to be successful, you have to intercept an existing process or flow that people are already doing - and ideally that process needs to be a painful one, so they have an incentive to change. Once an app becomes part of peoples workflow, you no longer need the intercept - but it's critical at the beginning. For Yabble, this will be meetings. Everyone hates having too many meetings, so we can use that pain point to drive intercepts. For example, maybe we can have a calender integration where we create a thread for every calender event - and then the team has to try and resolve the issue before the meeting - beat the meeting! If it gets resolved before the meeting, no one has to attend the meeting!
+
+ 2. Active v. passive - there are two types of communication - active and passive. Active (e.g. email, whatsapp, etc) forces the user to respond (even if that response is to dismiss), is usually shorter. Passive (e.g. Slack channels, instagram, etc) is optional, and is browsed through to find relevant information. I think active makes more sense for the use cases we're trying to cover, but I love the open transparency of Slack channels. I'm trying to find something in between, but that may be a fools errand. We'll see.
+
+Catch you on Monday! Have a great weekend all!
+
+
+
 
