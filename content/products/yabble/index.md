@@ -5,7 +5,7 @@ description: Better meetings for your team.
 week: 4
 status: Just getting started
 website: yabble.io
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8, Day 9
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9
 icon: ./yabble-logo.png
 image: ./screenshot.png
 ---
