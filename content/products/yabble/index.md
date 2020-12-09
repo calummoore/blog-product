@@ -222,7 +222,7 @@ I spent a bit more time working on types again, I've spent a significant amount 
 
 
 ### Day 6
-Thursday 2 Dec 2020
+Thursday 3 Dec 2020
 
  - [x] Replace REST API with GraphQL
  - [x] Remove REST API from front-end
@@ -236,7 +236,7 @@ Not a bad day again today, but still didn't get to the key UX improvements.
 
 
 ### Day 7
-Friday 3 Dec 2020
+Friday 4 Dec 2020
 
 I totally messed up the login system yesterday and didn't notice, so I'll need to fix that today. I really need to make sure we have some basic E2E tests (using Cypress) before we go live.
 
@@ -259,4 +259,53 @@ Catch you on Monday! Have a great weekend all!
 
 
 
+### Weekend
+Monday 5-6 Dec 2020
+
+I found a few hours over the weekend to do some minor tweaks. I try to focus on really smaller UX improvements on weekends, so I don't get stuck into anything big, and I can pick up and drop it as I need to.
+
+ - [x] Prevent controls from being draggable
+ - [x] Auto play videos (and reset on slide into view)
+ - [x] Pause all other videos when not in view
+ - [x] Keep track of what's been watched by a user (and start from last unwatched)
+
+
+
+### Day 8
+Tuesday 7 Dec 2020
+
+I spent most of today thinking about how the thread/channels/etc system would work - basically how does a user manage their video messages. I wanted to think this through before implementing the permissions (which is next on the list), in case it had a big impact on it. It was definitely one of those days where you think, what on earth did I do today?! But, I ended up really clarifying my thinking on this - and was really helpful.
+
+Following on from the thoughts on [Friday](#day-7), there are two key ways to consume communications - passive and active. Slack uses a more passive type of communication for messages, and allows the use of `@channel` to make a message more active. This makes sense for a text based system, it's fairly easy to skim messages (although one can still feel quite overloaded in Slack) and pick out what's important. That means you're more likely to browse less important messages, and it's less important that you read or respond to every single message.
+
+However, video is different. Firstly, it's much harder to skim videos. We're relying on people creating useful video titles (and eventually transcribing the videos using AI), but even then it's not as skimmable as pure text. In addition, we're trying to replicate IRL human conversations. It would be pretty rude to blank someone in the office if they ask you a question, and you'd only ask someone a question if it needed a response. 
+
+All in all, it seemed like a more active approach to messages makes sense, and that could be achieved by something similar to an e-mail inbox. Everyone who is sent a message receives it in their inbox and can then watch or dismiss it. However, there were still a couple of "passive" use cases that made me keep thinking:
+
+  * Default open - one of the great things about Slack is that it's default open, you don't need to get permission or be invited dip in and see what's happening in a channel. It's great for managers who want an overview of what's happening and for anyone else who needs a temporary look.
+  
+  * Automated videos - maybe you create a new video conversation for each new customer (i.e. a lot of videos)
+
+So what would happen to these use cases if we only went for the inbox approach? Everyone's inbox would end up filling up with these passive videos, and it would be hard to then pick out the important messages. So the problem question is actually - how to we stop peoples inboxes getting overfilled with passive videos - whilst still allowing people to browse passive videos if required?
+
+
+
+### Day 9
+Wednesday 8 Dec 2020
+
+Today, I got stuck back into the video problem from [Day 3](#day-3) and [Day 4](#day-4). I was starting to feel like maybe WebRTC recording wasn't the right technology choice for Yabble, and instead I should go for recording in the browser and uploading chunks manually using HTTPS:
+
+ 1. It takes a while for the WebRTC connection to load  - and you can't start recording until the session is up and running. There is not much you can do to improve this, it takes multiple steps to setup the direct connection.
+  
+ 2. It requires move devop and is much more complex - because it's a direct connection, you have to install each WebRTC media node on a single server and scaling up and down can be a challenge. With a direct upload we can use Google Cloud Run, which is much easier to manage, debug and scale.
+  
+ 3. I decided that sync live calls are out of scope for the forseeable future - at the beginning I was playing around with the idea that users could switch seamlessly between async and sync meetings. I think this is actually not a great idea though as I don't want everyone to default back to sync, and it's fairly easy to link off to another video app. Plus, it would take a lot of work to maintain this functionality and it would end up not being "best in class".
+
+ 4. It will work everywhere - no firewall issues as it's just plain old HTTPS
+
+ 5. I have to post-process regardless of approach - whether I use WebRTC direct connection or I record in the browser and upload the chunks, I will still need to convert to MP4 for Safari. And that means there isn't as much advantage.
+
+ 6. It won't work offline
+
+So the change is now complete. It took quite a bit of work to get the chunk uploading to be reliable (and there is probably more that I can do on that front) - but it works for now. There was an unexpected hiccup, as the video recording produced in the browser is not seekable (it looks like a live broadcast). That meant I had to run the `webm` file through ffmpeg in order to fix it, but ffmpeg doesn't allow both input and output to be streams 😭. That means I need to output the file to disk, and then separately upload it to GCP storage - which means the video won't be ready immediately 😞. That's a trade off (compared to recorded WebRTC), but I would prefer faster time to record, than faster playback. Besides, I would have to use ffmpeg for Safari anyway, and there are some optimizations I can look at in the future to reduce this time. Overall, I'm happy this is the right direction going forward.
 
