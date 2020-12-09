@@ -274,20 +274,24 @@ I found a few hours over the weekend to do some minor tweaks. I try to focus on 
 ### Day 8
 Tuesday 7 Dec 2020
 
-I spent most of today thinking about how the thread/channels/etc system would work - basically how does a user manage their video messages. I wanted to think this through before implementing the permissions (which is next on the list), in case it had a big impact on it. It was definitely one of those days where you think, what on earth did I do today?! But, I ended up really clarifying my thinking on this - and was really helpful.
+I spent most of today thinking about how the thread/channels/etc system should work - basically how does a user manage their video messages. I wanted to think this through before implementing the permissions (which is next on the list), in case it had a big impact on it. It was definitely one of those days where you think, what on earth did I do today?! But, it ended up really clarifying my thinking which is really useful.
 
 Following on from the thoughts on [Friday](#day-7), there are two key ways to consume communications - passive and active. Slack uses a more passive type of communication for messages, and allows the use of `@channel` to make a message more active. This makes sense for a text based system, it's fairly easy to skim messages (although one can still feel quite overloaded in Slack) and pick out what's important. That means you're more likely to browse less important messages, and it's less important that you read or respond to every single message.
 
 However, video is different. Firstly, it's much harder to skim videos. We're relying on people creating useful video titles (and eventually transcribing the videos using AI), but even then it's not as skimmable as pure text. In addition, we're trying to replicate IRL human conversations. It would be pretty rude to blank someone in the office if they ask you a question, and you'd only ask someone a question if it needed a response. 
 
-All in all, it seemed like a more active approach to messages makes sense, and that could be achieved by something similar to an e-mail inbox. Everyone who is sent a message receives it in their inbox and can then watch or dismiss it. However, there were still a couple of "passive" use cases that made me keep thinking:
+All in all, it seemed like a more active approach to video messages makes sense, and that could be achieved by something similar to an e-mail inbox. Everyone who is sent a message receives it in their inbox and can then watch or dismiss it. However, there were still a couple of "passive" use cases that made me keep thinking:
 
-  * Default open - one of the great things about Slack is that it's default open, you don't need to get permission or be invited dip in and see what's happening in a channel. It's great for managers who want an overview of what's happening and for anyone else who needs a temporary look.
+  * Default open - one of the great things about Slack is that it's default open, you don't need to get permission or be invited to dip in and see what's happening in a channel. It's great for managers who want an overview of what's happening and for anyone else who needs a temporary look.
   
-  * Automated videos - maybe you create a new video conversation for each new customer (i.e. a lot of videos)
+  * Automated videos - a few different use cases for this, but one could be that you use Yabble for onboarding new customers, so you create a new conversation for each new customer (i.e. a lot of videos)
 
 So what would happen to these use cases if we only went for the inbox approach? Everyone's inbox would end up filling up with these passive videos, and it would be hard to then pick out the important messages. So the problem question is actually - how to we stop peoples inboxes getting overfilled with passive videos - whilst still allowing people to browse passive videos if required?
 
+The solution I'm playing around with is to have channels, but all channel messages appear in your inbox (which is where you're expected to spend most of your time). Too avoid overload, the user could then specify that specific channels don't appear in their inbox. I still think this needs a bit more thought. 
+
+ * How can a user easily see which channels are in the inbox
+ * Would it be confusing to see some channels "duplicated" in the inbox, while others are not
 
 
 ### Day 9
