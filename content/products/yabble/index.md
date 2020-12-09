@@ -5,7 +5,7 @@ description: Better meetings for your team.
 week: 4
 status: Just getting started
 website: yabble.io
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8, Day 9
 icon: ./yabble-logo.png
 image: ./screenshot.png
 ---
@@ -293,7 +293,7 @@ So what would happen to these use cases if we only went for the inbox approach? 
 ### Day 9
 Wednesday 8 Dec 2020
 
-Today, I got stuck back into the video problem from [Day 3](#day-3) and [Day 4](#day-4). I was starting to feel like maybe WebRTC recording wasn't the right technology choice for Yabble, and instead I should go for recording in the browser and uploading chunks manually using HTTPS:
+Today, I got stuck back into the video problem from [Day 3](#day-3) and [Day 4](#day-4). I was starting to feel like maybe WebRTC recording wasn't the right technology choice for Yabble, and instead I should go for recording in the browser and uploading chunks manually using HTTPS. The reasoning behind this is as follows:
 
  1. It takes a while for the WebRTC connection to load  - and you can't start recording until the session is up and running. There is not much you can do to improve this, it takes multiple steps to setup the direct connection.
   
@@ -307,5 +307,11 @@ Today, I got stuck back into the video problem from [Day 3](#day-3) and [Day 4](
 
  6. It won't work offline
 
-So the change is now complete. It took quite a bit of work to get the chunk uploading to be reliable (and there is probably more that I can do on that front) - but it works for now. There was an unexpected hiccup, as the video recording produced in the browser is not seekable (it looks like a live broadcast). That meant I had to run the `webm` file through ffmpeg in order to fix it, but ffmpeg doesn't allow both input and output to be streams 😭. That means I need to output the file to disk, and then separately upload it to GCP storage - which means the video won't be ready immediately 😞. That's a trade off (compared to recorded WebRTC), but I would prefer faster time to record, than faster playback. Besides, I would have to use ffmpeg for Safari anyway, and there are some optimizations I can look at in the future to reduce this time. Overall, I'm happy this is the right direction going forward.
+So the change is now complete. It took quite a bit of work to get the chunk uploading to be reliable (and there is probably more that I can do on that front) - but it works for now. There was an unexpected hiccup, as the video recording produced in the browser is not seekable (it looks like a live broadcast). That meant I had to run the `webm` file through ffmpeg in order to fix it, but ffmpeg doesn't allow both input and output to be streams 😭. That means I need to output the file to disk, and then separately upload it to GCP storage - which means the video won't be ready immediately 😞. It's farily quick as no encoding needs to be done, but it's not instant. That's a trade off (compared to recorded WebRTC), but I would prefer faster time to record, than faster playback. Besides, I would have to use ffmpeg for Safari anyway, and there are some optimizations I can look at in the future to reduce this time. Overall, I'm happy this is the right direction going forward.
 
+
+#### Launch Update
+
+An update on the launch - I've decided to hold back from launching on ProductHunt as the primary launch target. It was a difficult decision, I do love the forcing factor of launching somewhere as public and important as ProductHunt, however I feel like this is something that needs a little use to refine - and that a refined version would do significantly better on ProductHunt.
+
+I still plan to launch it / have everything ready for tomorrow COP, but instead I will launch it on a number of friends and smaller platforms and ask for feedback. Hopefully, I can get some startups using it heavily and really start to learn from them.
