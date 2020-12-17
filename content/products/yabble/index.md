@@ -361,7 +361,7 @@ So I haven't mentioned yet - but I'm actually working out of Norway! And we've t
 
 Thursday 16 Dec 2020
 
-A bit of a late start to the day, just catching up on e-mails and a few things from our trip - but I'm not ready to go. The key thing for today is to enable public threads (so you can share a thread with anyone). I want this primarily for my own use case of getting people to try out the tool. 
+A bit of a late start to the day, just catching up on e-mails and a few things from our trip - but I'm now ready to go. The key thing for today is to enable public threads (so you can share a thread with anyone). I want this primarily for my own use case of getting people to try out the tool. 
 
 There are a few things needed for this:
 
