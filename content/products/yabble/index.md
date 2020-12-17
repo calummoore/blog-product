@@ -3,9 +3,9 @@ title:  Yabble
 date: "2020-11-26T00:00:00.000Z"
 description: Better meetings for your team.
 week: 4
-status: Just getting started
+status: Day 11
 website: yabble.io
-toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9
+toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11
 icon: ./yabble-logo.png
 image: ./screenshot.png
 ---
@@ -319,3 +319,63 @@ So the change is now complete. It took quite a bit of work to get the chunk uplo
 An update on the launch - I've decided to hold back from launching on ProductHunt as the primary launch target. It was a difficult decision, I do love the forcing factor of launching somewhere as public and important as ProductHunt, however I feel like this is something that needs a little use to refine - and that a refined version would do significantly better on ProductHunt.
 
 I still plan to launch it / have everything ready for tomorrow COP, but instead I will launch it on a number of friends and smaller platforms and ask for feedback. Hopefully, I can get some startups using it heavily and really start to learn from them.
+
+### Day 10
+
+Thursday 9 Dec 2020
+
+So the video saga continues, in turns out that `record-rtc`  library does not actually support Safari (even though it says it does on their repo readme).  So I now have 3 options:
+
+1. Exclude Safari (et al) support entirely - it’s about 25% of web traffic, so not negligible
+2. Hybrid - use WebRTC recording (previous approach) for unsupported browsers - load on the media server should be much reduced, as it’s only for unsupported browsers
+3. WebRTC recording - go back to WebRTC recording for all browsers
+
+I’m going to go with option 2, with the primary focus on the browser recording - and a less good experience (but still working) for other browsers. Our desktop and mobile apps will use local recording too, so that should reduce the usage further. Hopefully over time, as browser support improves, we can remove WebRTC entirely. 
+
+However, today was supposed to be about enabling sharing - so I moved on an managed to get a basic invite to thread function working - based on #2 thread approach below.
+
+I'm still having some problems with turning off the camera for WebRTC mode, when the user goes to another screen, but otherwise the dual approach is working well.
+
+#### Threads and Channels
+
+There’s actually two common types of interface for the direct method of communication:
+
+ 1. Membership based (WhatsApp/Slack) - groups are based around membership or broad topic - usually less groups which are re-used more frequently - conversation frequently moves between topics
+  
+ 2. Subject based (Email) - each subject matter gets its own threads, threads are created often, and less often re-used - conversation sticks to a specific topic
+
+The difference is subtle, and there is overlap between these, but they actually garner a significantly difference experience.
+
+
+
+### Holiday in Geilo, Norway
+
+Friday 10 Dec 2020 - Wednesday 15 Dec 2020
+
+So I haven't mentioned yet - but I'm actually working out of Norway! And we've travelled up with some friends to their hytta (cabin). It's been great to have a break and enjoy some skiing!
+
+![Skiing](./ski.jpg)
+
+
+### Day 11 - Soft Launch
+
+Thursday 16 Dec 2020
+
+A bit of a late start to the day, just catching up on e-mails and a few things from our trip - but I'm not ready to go. The key thing for today is to enable public threads (so you can share a thread with anyone). I want this primarily for my own use case of getting people to try out the tool. 
+
+There are a few things needed for this:
+
+ - [ ] Add option in the `to` view to make it public
+ - [ ] Allow public threads to be viewed anonymously 
+ - [ ] Ask the user to sign up when responding to a video 
+
+Plus a few other things if there is time:
+
+ - [ ] Update the website
+ - [ ] Test billing flow
+ - [ ] Send e-mail notifications for thread updates
+ - [ ] Create a new thread without the modal view
+ - [ ] Create a ToDesktop version of the app
+ - [ ] Fix the WebRTC camera always on mode
+
+**SOFT LAUNCH** - the launch goal is send out 10 messages for people to try out Yabble!
